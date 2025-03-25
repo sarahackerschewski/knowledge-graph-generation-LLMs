@@ -1,0 +1,87 @@
+**Prompt: Ontology extraction**
+
+**Objective:**
+You are given a list of articles from wikipedia. Your task is to analyze/understand the articles and to create a RDF-based neo4j ontology structure, with which we can later create knowledge graphs. For this you have to extract the entities types and their relationships and give your output in JSON form with the defined JSON structure described below. Be as general as possible with the entities,i.e no names, specific organizations, also when adding the source and target for the relations.
+ 
+
+**Input:**
+You will receive a list of strings.
+
+**Output:**
+ 
+```json
+{
+        "entities": [
+            "Entity1",
+            "Entity2",
+           ...
+        ],
+        "relationships": [
+            {
+                "type": "RELATIONSHIP_TYPE",
+		"description": short description of the relation", 
+                "source": "Entity1",
+                "target": "Entity2"
+            },
+            ...
+        ]
+    }
+```
+
+**Example Input:**
+["Guillermo del Toro Gómez (born 9 October 1964) is a Mexican filmmaker, author, and artist.", "The 2024 Summer Olympics were an international multi-sport event held from 26 July to 11 August 2024 in France."]
+**Example Output:**
+```json
+{
+        "entities": [
+           "Person",
+           "Event",
+           "Location",
+           "Occupation",
+           "Date"
+        ],
+        "relationships": [
+            {
+                "type": "HAS_NATIONALITY",
+		"description": "links a person to their nationality",
+                "source": "Person",
+                "target": "Location"
+            },
+{
+                "type": "BORN_ON",
+		"description": "links a person to their date of birth",
+                "source": "Person",
+                "target": "Date"
+            }
+            {
+                "type": "HAS_OCCUPATION",
+		"description": "links a person to their occupation",
+                "source": "Person",
+                "target": "Occupation"
+            },
+{
+                "type": "OCCURS_IN",
+		"description": "Links an event to its specific time range",
+                "source": "Event",
+                "target": "TimePeriod"
+            },
+            {
+                "type": "OCCURS_IN",
+		"description": "Links an event to its location",
+                "source": "Event",
+                "target": "Country"
+            },
+            
+        ]
+    }
+```
+
+**Instructions:**
+1. **Understand the given content:**Inspect and analyse the given input content.
+2. **Extract the entities:**Extract the existing entities types from the given input content. 
+3. **Extract the relationships:** Extract the existing relationships of the already extracted entity types.
+4. **Format proper output:** Bring the extract entities and their relationships into to desired JSON output format. You have to follow the JSON output format, which is defined above.
+
+---
+
+Please provide the extracted content in the specified JSON structure.

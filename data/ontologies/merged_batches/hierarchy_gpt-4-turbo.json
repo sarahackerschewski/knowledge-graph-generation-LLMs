@@ -1,0 +1,723 @@
+{
+    "Person": {
+        "childrenEntities": {
+            "Occupation": {
+                "childrenEntities": {
+                    "AcademicPosition": {},
+                    "MilitaryRank": {},
+                    "Composer": {
+                        "childrenEntities": {
+                            "ComposerSociety": {}
+                        }
+                    },
+                    "Violinist": {},
+                    "Pianist": {},
+                    "Professor": {},
+                    "Student": {},
+                    "Economist": {},
+                    "Mason": {},
+                    "Cricketer": {},
+                    "Choreographer": {},
+                    "ArtDirector": {},
+                    "Bishop": {
+                        "childrenEntities": {
+                            "Diocese": {}
+                        }
+                    },
+                    "Clergyman": {
+                        "childrenEntities": {
+                            "Clergy": {},
+                            "Monk": {},
+                            "ReligiousOrder": {}
+                        }
+                    },
+                    "FootballPlayer": {},
+                    "BicycleRacer": {},
+                    "MotorcycleRacer": {},
+                    "Director": {},
+                    "Actor": {},
+                    "Writer": {},
+                    "Psychologist": {},
+                    "Lecturer": {},
+                    "BusinessExecutive": {},
+                    "Diplomat": {},
+                    "Politician": {},
+                    "Athlete": {
+                        "childrenEntities": {
+                            "NationalTeam": {},
+                            "AthleticsCompetition": {},
+                            "Cyclist": {},
+                            "Footballer": {}
+                        }
+                    },
+                    "Governor": {},
+                    "Profession": {},
+                    "Meteorologist": {},
+                    "Translator": {},
+                    "Historian": {},
+                    "Criminal": {
+                        "childrenEntities": {
+                            "FraudType": {},
+                            "FraudAction": {}
+                        }
+                    },
+                    "Artist": {
+                        "childrenEntities": {
+                            "Painter": {},
+                            "Photographer": {}
+                        }
+                    },
+                    "Playwright": {},
+                    "Singer": {},
+                    "Musician": {},
+                    "Coach": {},
+                    "CameraOperator": {},
+                    "Chef": {},
+                    "Scholar": {},
+                    "PublicServant": {},
+                    "Archaeologist": {},
+                    "Businessman": {},
+                    "RugbyPlayer": {
+                        "childrenEntities": {
+                            "RugbyUnionCompetition": {}
+                        }
+                    },
+                    "Educator": {},
+                    "PoliceOfficer": {},
+                    "Librarian": {},
+                    "Indologist": {},
+                    "Gymnast": {},
+                    "Soldier": {}
+                }
+            },
+            "Nationality": {},
+            "Surname": {
+                "childrenEntities": {
+                    "SurnameOrigin": {}
+                }
+            },
+            "Gender": {},
+            "Author": {},
+            "Architect": {},
+            "Scientist": {},
+            "Sociologist": {},
+            "Actress": {},
+            "MusicArtist": {},
+            "MilitaryPersonnel": {},
+            "Pioneer": {},
+            "Striker": {},
+            "Captain": {},
+            "EsportsPlayer": {},
+            "PoliticalFigure": {},
+            "Philanthropist": {}
+        }
+    },
+    "Location": {
+        "childrenEntities": {
+            "Cemetery": {},
+            "HistoricPlace": {},
+            "Building": {
+                "childrenEntities": {
+                    "HistoricBuilding": {},
+                    "ReligiousBuilding": {
+                        "childrenEntities": {
+                            "BuddhistTemple": {},
+                            "Synagogue": {},
+                            "Temple": {}
+                        }
+                    },
+                    "Hospital": {},
+                    "Library": {},
+                    "Stadium": {},
+                    "Structure": {}
+                }
+            },
+            "Island": {
+                "childrenEntities": {
+                    "IslandGroup": {}
+                }
+            },
+            "Locality": {
+                "childrenEntities": {
+                    "City": {
+                        "childrenEntities": {
+                            "CityCouncil": {
+                                "childrenEntities": {
+                                    "CommunityCouncil": {}
+                                }
+                            }
+                        }
+                    },
+                    "Country": {
+                        "childrenEntities": {
+                            "CountryEconomy": {}
+                        }
+                    },
+                    "Region": {},
+                    "Province": {},
+                    "Village": {},
+                    "District": {
+                        "childrenEntities": {
+                            "PoliticalDistrict": {}
+                        }
+                    },
+                    "Neighborhood": {},
+                    "Townland": {},
+                    "CivilParish": {},
+                    "County": {},
+                    "Area": {},
+                    "Municipality": {
+                        "childrenEntities": {
+                            "MunicipalCorporation": {}
+                        }
+                    },
+                    "AdministrativeDivision": {},
+                    "CityDistrict": {},
+                    "Town": {}
+                }
+            },
+            "River": {
+                "childrenEntities": {
+                    "Stream": {},
+                    "Confluence": {},
+                    "Watercourse": {}
+                }
+            },
+            "Resort": {},
+            "HistoricHouse": {},
+            "Fort": {},
+            "Church": {},
+            "Prison": {},
+            "HistoricalBuilding": {},
+            "Monastery": {},
+            "Glacier": {},
+            "Trail": {},
+            "ProtectedArea": {
+                "childrenEntities": {
+                    "NationalPark": {},
+                    "ProtectedMonument": {}
+                }
+            },
+            "HeritageSite": {},
+            "BodyOfWater": {
+                "childrenEntities": {
+                    "Lake": {},
+                    "Bay": {},
+                    "Lagoon": {}
+                }
+            },
+            "Infrastructure": {
+                "childrenEntities": {
+                    "TransportInfrastructure": {
+                        "childrenEntities": {
+                            "TelecommunicationInfrastructure": {}
+                        }
+                    }
+                }
+            },
+            "Road": {},
+            "RecreationArea": {},
+            "Bridge": {},
+            "Airport": {},
+            "ArchaeologicalSite": {},
+            "GeologicalSite": {},
+            "GeologicalFeature": {}
+        }
+    },
+    "Event": {
+        "childrenEntities": {
+            "Festival": {
+                "childrenEntities": {
+                    "FilmFestival": {},
+                    "MusicFestival": {}
+                }
+            },
+            "Competition": {
+                "childrenEntities": {
+                    "SportsCompetition": {},
+                    "BasketballPosition": {},
+                    "Championship": {},
+                    "Contest": {}
+                }
+            },
+            "Conflict": {},
+            "SportsEvent": {
+                "childrenEntities": {
+                    "SportsLeague": {},
+                    "SportsTeam": {},
+                    "SportTeam": {},
+                    "SportMatch": {
+                        "childrenEntities": {
+                            "Match": {}
+                        }
+                    },
+                    "RugbyTeam": {},
+                    "TennisTournament": {},
+                    "TennisClub": {}
+                }
+            },
+            "Conference": {},
+            "Election": {
+                "childrenEntities": {
+                    "Referendum": {},
+                    "Voter": {},
+                    "ElectoralDistrict": {}
+                }
+            },
+            "WorldWar": {},
+            "TerroristAttack": {},
+            "Casualty": {},
+            "Exhibition": {},
+            "MilitaryGovernment": {},
+            "Protest": {},
+            "War": {},
+            "SportsTournament": {},
+            "Parade": {},
+            "Anniversary": {},
+            "CulturalEvent": {}
+        }
+    },
+    "Organization": {
+        "childrenEntities": {
+            "University": {
+                "childrenEntities": {
+                    "ResearchInstitution": {}
+                }
+            },
+            "Academy": {},
+            "Company": {
+                "childrenEntities": {
+                    "FilmStudio": {},
+                    "RecordLabel": {},
+                    "ITCompany": {},
+                    "Corporation": {},
+                    "AdvisoryFirm": {},
+                    "InvestmentBank": {},
+                    "Bank": {
+                        "childrenEntities": {
+                            "BankingService": {}
+                        }
+                    },
+                    "Business": {},
+                    "NewsChannel": {},
+                    "ConstructionCompany": {},
+                    "ProductionCompany": {},
+                    "CompanyIndustry": {},
+                    "RecordingLabel": {},
+                    "RecordingStudio": {}
+                }
+            },
+            "Group": {
+                "childrenEntities": {
+                    "Fraternity": {},
+                    "Band": {},
+                    "Family": {},
+                    "Dynasty": {}
+                }
+            },
+            "GovernmentBody": {
+                "childrenEntities": {
+                    "GovernmentAgency": {},
+                    "Government": {
+                        "childrenEntities": {
+                            "Cabinet": {}
+                        }
+                    },
+                    "LegislativeBody": {
+                        "childrenEntities": {
+                            "LegislativeAssembly": {}
+                        }
+                    },
+                    "MilitaryBranch": {},
+                    "MilitaryOfficer": {}
+                }
+            },
+            "Enterprise": {},
+            "Regulator": {},
+            "QualityManagement": {},
+            "VolleyballTeam": {},
+            "FootballClub": {},
+            "CricketTeam": {},
+            "Team": {},
+            "MusicBand": {
+                "childrenEntities": {
+                    "MusicGroup": {}
+                }
+            },
+            "AcademicInstitution": {
+                "childrenEntities": {
+                    "EducationalInstitution": {
+                        "childrenEntities": {
+                            "School": {},
+                            "UniversitySportsTeam": {},
+                            "SchoolNetwork": {},
+                            "HighSchool": {}
+                        }
+                    }
+                }
+            },
+            "Media": {
+                "childrenEntities": {
+                    "TelevisionChannel": {},
+                    "BroadcastNetwork": {},
+                    "TelevisionNetwork": {}
+                }
+            },
+            "Institution": {},
+            "ResearchInstitute": {
+                "childrenEntities": {
+                    "Researcher": {},
+                    "ResearchFacility": {},
+                    "Research": {},
+                    "ResearchNetwork": {}
+                }
+            },
+            "PoliticalOrganization": {},
+            "AdvisoryCouncil": {},
+            "ScientificCouncil": {},
+            "Fellowship": {},
+            "Assembly": {},
+            "GovernmentPosition": {},
+            "CulturalOrganization": {},
+            "ReligiousOrganization": {},
+            "CharitableOrganization": {},
+            "MusicPublishingGroup": {},
+            "MusicVenue": {},
+            "Magazine": {},
+            "Publisher": {}
+        }
+    },
+    "Document": {
+        "childrenEntities": {
+            "Publication": {
+                "childrenEntities": {
+                    "Book": {},
+                    "BookSeries": {},
+                    "Journal": {},
+                    "AcademicJournal": {}
+                }
+            },
+            "Technology": {
+                "childrenEntities": {
+                    "Software": {},
+                    "Computer": {},
+                    "ProgrammingLanguage": {},
+                    "ProgrammingTool": {}
+                }
+            },
+            "MemoryType": {},
+            "PoliticalPosition": {},
+            "Prize": {},
+            "MusicPiece": {},
+            "ProductionConcept": {},
+            "SportsGround": {},
+            "TelevisionEpisode": {},
+            "TelevisionSeries": {},
+            "MusicAlbum": {
+                "childrenEntities": {
+                    "Album": {}
+                }
+            },
+            "RadioStation": {},
+            "Format": {},
+            "Process": {},
+            "Memorial": {},
+            "LegalCase": {
+                "childrenEntities": {
+                    "CourtCase": {},
+                    "Trial": {},
+                    "Court": {}
+                }
+            },
+            "Literature": {
+                "childrenEntities": {
+                    "LiteraryWork": {
+                        "childrenEntities": {
+                            "Manuscript": {},
+                            "Novel": {},
+                            "LiteraryCharacter": {}
+                        }
+                    }
+                }
+            },
+            "Documentary": {
+                "childrenEntities": {
+                    "DocumentaryFilm": {}
+                }
+            }
+        }
+    },
+    "Artwork": {
+        "childrenEntities": {
+            "Song": {
+                "childrenEntities": {
+                    "MusicRecording": {},
+                    "Songwriter": {},
+                    "MusicVideo": {}
+                }
+            },
+            "Film": {
+                "childrenEntities": {
+                    "Musical": {},
+                    "FilmGenre": {},
+                    "FilmEditor": {},
+                    "Cinema": {}
+                }
+            },
+            "Craft": {},
+            "ArtisticWork": {},
+            "ArtisticGenre": {},
+            "ArtPeriod": {},
+            "ArtMovement": {
+                "childrenEntities": {
+                    "ArtisticMovement": {}
+                }
+            },
+            "Theater": {},
+            "Theatre": {},
+            "ArtisticDiscipline": {},
+            "ArtGallery": {},
+            "ArtStyle": {},
+            "Dance": {
+                "childrenEntities": {
+                    "ArtForm": {}
+                }
+            }
+        }
+    },
+    "Sport": {
+        "childrenEntities": {
+            "CricketMatchType": {},
+            "RugbyMatchType": {},
+            "FootballMatchType": {}
+        }
+    },
+    "Other": {
+        "childrenEntities": {
+            "Award": {},
+            "Chemical": {
+                "childrenEntities": {
+                    "ChemicalCompound": {},
+                    "ChemicalFormula": {},
+                    "Adhesive": {}
+                }
+            },
+            "Date": {},
+            "Language": {},
+            "Highway": {},
+            "Racer": {},
+            "ArchitectureStyle": {
+                "childrenEntities": {
+                    "ArchitecturalStyle": {}
+                }
+            },
+            "ConstructionStyle": {},
+            "MilitaryRole": {},
+            "OnlineCommunity": {},
+            "Season": {
+                "childrenEntities": {
+                    "SportsSeason": {}
+                }
+            },
+            "MythologicalCharacter": {
+                "childrenEntities": {
+                    "Character": {},
+                    "MythologicalFigure": {}
+                }
+            },
+            "CulturalHeritage": {},
+            "AnimalBreed": {},
+            "Archipelago": {},
+            "Union": {},
+            "Order": {},
+            "Council": {},
+            "NaturePark": {},
+            "HistoricalStructure": {},
+            "ReligiousSite": {
+                "childrenEntities": {
+                    "ReligiousIcon": {},
+                    "ReligiousTitle": {},
+                    "ReligiousDevotion": {}
+                }
+            },
+            "Instrument": {},
+            "Play": {},
+            "AwardNomination": {},
+            "HistoricHome": {},
+            "HistoricPeriod": {},
+            "HistoricalPeriod": {},
+            "TimePeriod": {},
+            "Year": {},
+            "State": {},
+            "Constituency": {},
+            "BiologicalConcept": {
+                "childrenEntities": {
+                    "Species": {},
+                    "Plant": {
+                        "childrenEntities": {
+                            "Shrub": {},
+                            "Tree": {},
+                            "PlantFamily": {}
+                        }
+                    },
+                    "Animal": {
+                        "childrenEntities": {
+                            "Cat": {},
+                            "Insect": {},
+                            "Bacterium": {
+                                "childrenEntities": {
+                                    "Bacteria": {}
+                                }
+                            },
+                            "Racehorse": {},
+                            "Snake": {}
+                        }
+                    },
+                    "BodyPart": {
+                        "childrenEntities": {
+                            "Nerve": {},
+                            "Muscle": {}
+                        }
+                    },
+                    "MedicalCondition": {},
+                    "Enzyme": {},
+                    "Fungus": {},
+                    "Moth": {},
+                    "Beetle": {},
+                    "Genus": {},
+                    "Mineral": {},
+                    "ProteinFamily": {},
+                    "IonChannel": {},
+                    "Protein": {},
+                    "Gene": {}
+                }
+            },
+            "Beverage": {},
+            "Settlement": {},
+            "EthnicGroup": {
+                "childrenEntities": {
+                    "Ethnicity": {}
+                }
+            },
+            "TransportFacility": {
+                "childrenEntities": {
+                    "TransportationStation": {
+                        "childrenEntities": {
+                            "RailwayStation": {}
+                        }
+                    },
+                    "TransportHub": {},
+                    "TransportService": {}
+                }
+            },
+            "NatureReserve": {},
+            "BotanicalFeature": {},
+            "Park": {},
+            "Mountain": {},
+            "MusicChart": {},
+            "Library": {},
+            "Census": {},
+            "PoliticalParty": {},
+            "Director": {},
+            "EducationalApproach": {},
+            "Tier": {},
+            "FootballSystem": {},
+            "InvestmentGroup": {},
+            "Mayor": {},
+            "License": {},
+            "OilField": {},
+            "AircraftList": {},
+            "SportsFacility": {},
+            "Locomotive": {
+                "childrenEntities": {
+                    "Train": {}
+                }
+            },
+            "Shipyard": {},
+            "PowerStation": {
+                "childrenEntities": {
+                    "PowerSource": {}
+                }
+            },
+            "DegreeProgram": {},
+            "EducationalFoundation": {},
+            "Game": {},
+            "Race": {},
+            "AthleticAssociation": {},
+            "AthleticLeague": {},
+            "Trial": {},
+            "Submarine": {},
+            "Object": {},
+            "Deity": {},
+            "Purpose": {},
+            "RailwayDivision": {},
+            "Chart": {},
+            "Commercial": {},
+            "BiologicalSpecies": {},
+            "Tribe": {},
+            "Position": {},
+            "Dam": {},
+            "Course": {},
+            "Platform": {},
+            "Facility": {},
+            "HealthcareSystem": {},
+            "Act": {},
+            "HealthService": {},
+            "Continent": {},
+            "Website": {},
+            "Community": {},
+            "Earthquake": {},
+            "RadioShow": {},
+            "SportsPosition": {},
+            "BiochemicalMethod": {},
+            "Treatment": {},
+            "TradeUnion": {},
+            "CoachingCertification": {},
+            "FilmDirector": {},
+            "Summit": {},
+            "Accident": {},
+            "Treaty": {},
+            "Empire": {},
+            "ReligiousFigure": {},
+            "TransportInfrastructure": {},
+            "HistoricalFigure": {},
+            "GivenName": {},
+            "Legislation": {},
+            "Zoo": {},
+            "Composition": {},
+            "Orchestra": {},
+            "Player": {},
+            "MusicExecutive": {},
+            "MedicalConcept": {},
+            "ExecutiveCouncil": {},
+            "Ministry": {},
+            "CharityAdministrator": {},
+            "Medication": {},
+            "CulturalAssociation": {},
+            "Parent": {},
+            "Study": {},
+            "Drama": {},
+            "TelevisionNetwork": {},
+            "ResidentialArea": {},
+            "Statue": {},
+            "IndigenousGroup": {},
+            "Text": {},
+            "Sculpture": {},
+            "Noble": {},
+            "CulturalIdentity": {},
+            "Hill": {},
+            "TradeRoute": {},
+            "Wingspan": {},
+            "VideoGame": {},
+            "VideoGameConsole": {},
+            "ReleaseDate": {},
+            "Contract": {},
+            "Congress": {},
+            "MilitaryInstallation": {},
+            "HistoricalSignificance": {},
+            "HistoricalSociety": {},
+            "EducationalMethod": {},
+            "Star": {}
+        }
+    }
+}

@@ -1,0 +1,127 @@
+**Prompt: Hierarchy Detector for Ontology Entities**
+
+**Objective:**
+You are given a list of entities from an ontology and an existing hierarchy. Your task is to extend the hierarchy with the given entities and create new ones if necessary (dont forget to assign the entities to the hierarchies) This means, that a parent entity (e.g. Person) can have child entities (e.g. Author, Actor, ...). You should create a hierarchical structure that organizes all entities into broader or narrower categories. For the leftover entities, which could not be assigned, given them back seperately (under the key "Other"). Do not repeat any of the entities. Structure the output in the given JSON format. 
+
+**Input:**
+You will receive a list of strings, which are the entities, and an existing hierarchy.
+hierarchy = {
+  "Entity1": {
+    "childrenEntities": {
+      "SubEntity1": {},
+      "SubEntity2": {}
+    }
+  },
+  "Entity2": {
+    "childrenEntities": {...}
+  },
+  "Other":{
+  }
+...
+}
+
+
+**Output:**
+ 
+```json
+{
+  "Entity1": {
+    "childrenEntities": {
+      "SubEntity1": {},
+      "SubEntity2": {}
+    }
+  },
+  "Entity2": {
+    "childrenEntities": {...}
+  },
+  "Entity3": {
+    "childrenEntities": {
+      "SubEntity1": {},
+      "SubEntity2": {}
+    },
+   },
+   "Other": {
+      "Entity4": {},
+      "Entity5": {}
+   }
+...
+}
+```
+
+**Example Input:**
+["BalletDancer", "Painter", "ITCompany", "MusicFestival", "Cat", "Building"]
+hierarchy = {
+        "Person": {
+            "childrenEntities": {
+                "Dancer": {}
+            }
+        },
+        "Company": {},
+        "Event": {
+            "childrenEntities": {
+                "Festival": {}
+            }
+        },
+        "Document": {
+            "childrenEntities": {
+                "Book": {}
+            }
+        },
+        "Other": {
+          "House":{}
+        }
+	
+    }
+
+**Example Output:**
+```json
+{
+        "Person": {
+            "childrenEntities": {
+                "Dancer": {
+		  "childrenEntities": {
+                    "BalletDancer": {}
+            	    }
+		},
+		"Painter": {}
+            }
+        },
+        "Company": {
+ 	    "childrenEntities": {
+                "ITCompany": {}
+            }
+	},
+        "Event": {
+            "childrenEntities": {
+                "Festival": {
+		   "childrenEntities": {
+                      "MusicFestival": {}
+            	    }
+		}
+            }
+        },
+        "Document": {
+            "childrenEntities": {
+                "Book": {}
+            }
+        },
+	"Building": {
+	    "childrenEntities": {
+		"House": {}
+	    }
+	}
+	"Other": {
+      "Cat": {}
+  }
+    }
+```
+
+**Instructions:**
+1. **Understand the given content:** Carefully read and analyze the provided list of entities and the provided existing hierarchy.
+2. **Identify the hierarchy:** Extend the existing hierarchy by determining the hierarchical relationships between the entities, identifying which entities are parent entities and which are child entities.
+3. **Check entities:** Make sure all entities from the input list can be found in the ouput hierarchy. However, make sure there are no duplicate entries in the output. 
+4. **Format the output:** Structure the entities in the specified JSON format, ensuring clarity and consistency in the hierarchy.
+
+---
+
+Please provide the extracted content in the specified JSON structure.

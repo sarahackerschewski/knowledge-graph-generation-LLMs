@@ -1,0 +1,56 @@
+[
+  {
+    "d": {
+      "identity": 3,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "date": "11 July 1917",
+        "author": "Unknown",
+        "description": "An open letter addressed to King Albert I during World War I, expressing grievances of the Flemish within the Belgian Army.",
+        "id": "5",
+        "title": "The Yser Testament"
+      },
+      "elementId": "4:3af8b909-7238-4dee-8ecb-0be8a0bc3a88:3"
+    },
+    "relationship": "ADDRESSED_TO",
+    "objectLabels": [
+      "Person"
+    ],
+    "objectProperties": {
+      "id": "8",
+      "name": "Armand De Ceuninck",
+      "gender": "Male",
+      "birthDate": "",
+      "birthPlace": ""
+    }
+  },
+  {
+    "d": {
+      "identity": 3,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "date": "11 July 1917",
+        "author": "Unknown",
+        "description": "An open letter addressed to King Albert I during World War I, expressing grievances of the Flemish within the Belgian Army.",
+        "id": "5",
+        "title": "The Yser Testament"
+      },
+      "elementId": "4:3af8b909-7238-4dee-8ecb-0be8a0bc3a88:3"
+    },
+    "relationship": "OCCURS_IN",
+    "objectLabels": [
+      "Location"
+    ],
+    "objectProperties": {
+      "id": "9",
+      "area": "",
+      "name": "Yser Front",
+      "coordinates": "",
+      "population": ""
+    }
+  }
+]

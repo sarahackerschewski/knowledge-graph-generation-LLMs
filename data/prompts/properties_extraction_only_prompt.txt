@@ -1,0 +1,146 @@
+**Prompt: Hierarchy and Property Detector for Ontology Entities**
+
+**Objective:**
+You are given a dictionary of entities from an ontology, which represent the hierarchy between the entities. Your task is to add fitting properties to the parent entities and the child entities, which describe the entity (for example Person can have the entities: name, surname, gender, birthdate, ...). The child entities inherit the entities of the parent entity and can have also additionally some specific entities (for example for the child entity Author can be the following: genre, awards, reputation ...). The inheritation can only happend from the parent entity to the child entity. The "Other" category does not have "properties", but each content gets a "properties" key.
+ 
+
+**Input:**
+You will receive a dictionary of entities.
+{
+  "Entity1": {
+    "childrenEntities": {
+      "SubEntity1": {},
+      "SubEntity2": {}
+    }
+  },
+  "Entity2": {
+    "childrenEntities": {...}
+  },
+  "Other": {
+    "Entity3": {}
+  }
+...
+}
+
+**Output:**
+ 
+```json
+{
+  "Entity1": {
+    "properties": {"property1":"datatype", "property2":"datatype"},
+    "childrenEntities": {
+      "SubEntity1": {
+        "properties": {"property1":"datatype", "property2":"datatype", "property3":"datatype", "property4":"datatype"}
+      },
+      "SubEntity2": {
+        "properties": {"property1":"datatype", "property2":"datatype", "property5":"datatype", "property6":"datatype"}
+      }
+    }
+  },
+  "Entity2": {
+    "properties": {"property7":"datatype", "property8":"datatype", "property9":"datatype"},
+    "childrenEntities": {...}
+  },
+"Other": {
+    "Entity3": {
+"properties": {"property10":"datatype", "property11":"datatype", "property12":"datatype"}
+}
+  }
+...
+}
+```
+
+**Example Input:**
+{
+        "Person": {
+            "childrenEntities": {
+                "Employee": {
+                },
+                "Customer": {
+                },
+                "Dancer": {
+                    "childrenEntities": {
+                        "BalletDancer": {
+                        }
+                    }
+                }
+            }
+        },
+        
+        "Event": {
+ 
+            "childrenEntities": {
+                "Festival": {
+                    
+                }
+            }
+        },
+        "Book": {
+            
+            "childrenEntities": {
+                "Novel": {
+                }
+            }
+        },
+        "Other": {
+      	 "Company": {
+            }
+        }
+    }
+
+**Example Output:**
+```json
+{
+        "Person": {
+            "properties": {"name": string, "birthDate": date, "birthPlace": string},
+            "childrenEntities": {
+                "Employee": {
+                    "properties": {"name": string, "birthDate": date, "birthPlace": string, "employeeID: string, "salary: number", "phoneNumber": string}
+                },
+                "Customer": {
+                    "properties": {"name": string, "birthDate": date, "customerID": string, "purchaseHistory": [string], "phoneNumber": string}
+                },
+                "Dancer": {
+                    "properties": {"name": string, "birthDate": date, "birthPlace": string, "experience": number"},
+                    "childrenEntities": {
+                        "BalletDancer": {
+                            "properties": {"name": string, "birthDate": date, "experience": number, "balletStyle": string}
+                        }
+                    }
+                }
+            }
+        },
+        "Event": {
+            "properties": {"name": string, "date: date, "location": string},
+            "childrenEntities": {
+                "Festival": {
+                    "properties": {"name": string, "date: date, "location": string, "duration: number", "theme: string}
+                }
+            }
+        },
+        "Book": {
+            "properties": {"title: string, "author: string, "publicationDate: date, "genre": string},
+            "childrenEntities": {
+                "Novel": {
+                    "properties": {"title": string, "author": string, "publicationDate": date, "genre": string, "subGenre": string, "pageCount": number}
+                }
+            }
+        },
+        "Other": {
+        "Company": {
+            "properties": {"name": string, "phoneNumber": string, "clientList" [string]}
+        }
+        }
+        ...
+    }
+```
+
+**Instructions:**
+1. **Understand the given content:** Carefully read and analyze the provided list of entities.
+2. **Assign properties:** Assign appropriate properties to each class. Ensure that child entities inherit properties from their parent entities and add any additional properties specific to them.
+3. **Format the output:** Structure the entities and their properties in the specified JSON format, ensuring clarity and consistency in the hierarchy.
+
+
+---
+
+Please provide the extracted content in the specified JSON structure.

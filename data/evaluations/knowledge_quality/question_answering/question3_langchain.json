@@ -1,0 +1,233 @@
+[
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "ADDRESSED_TO",
+    "objectLabels": [
+      "Person"
+    ],
+    "objectProperties": {
+      "id": "King Albert I"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "ACTION_OF",
+    "objectLabels": [
+      "Movement"
+    ],
+    "objectProperties": {
+      "id": "Frontbeweging"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "PROVOKED_REACTION_FROM",
+    "objectLabels": [
+      "Organization"
+    ],
+    "objectProperties": {
+      "id": "High Command"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "RELATED_TO",
+    "objectLabels": [
+      "Movement"
+    ],
+    "objectProperties": {
+      "id": "Flemish Movement"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "RELATED_TO",
+    "objectLabels": [
+      "Organization"
+    ],
+    "objectProperties": {
+      "id": "Belgian Army"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "RELATED_TO",
+    "objectLabels": [
+      "Policy"
+    ],
+    "objectProperties": {
+      "id": "Flamenpolitik"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "DEFENDED_ACTIONS_OF",
+    "objectLabels": [
+      "Organization"
+    ],
+    "objectProperties": {
+      "id": "German Authorities"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "CONTEXT",
+    "objectLabels": [
+      "Event"
+    ],
+    "objectProperties": {
+      "id": "World War I"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "DEMANDED_AUTONOMY_FOR",
+    "objectLabels": [
+      "Region"
+    ],
+    "objectProperties": {
+      "id": "Flanders"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "GRIEVANCES_AGAINST",
+    "objectLabels": [
+      "Organization"
+    ],
+    "objectProperties": {
+      "id": "Belgian Army"
+    }
+  },
+  {
+    "d": {
+      "identity": 8,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "official_title": "Open Letter to the King of the Belgians Albert I",
+        "publication_date": "1917-07-11",
+        "id": "Yser Testament"
+      },
+      "elementId": "4:f4831af7-c34d-48c5-86c7-3bd956907840:8"
+    },
+    "relationship": "DEFENDED",
+    "objectLabels": [
+      "Policy"
+    ],
+    "objectProperties": {
+      "id": "Flamenpolitik"
+    }
+  }
+]

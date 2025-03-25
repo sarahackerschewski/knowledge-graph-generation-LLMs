@@ -1,0 +1,3688 @@
+{
+    "entities": [
+        "Person",
+        "Location",
+        "Date",
+        "Occupation",
+        "Event",
+        "Organization",
+        "Document",
+        "Nationality",
+        "Cemetery",
+        "HistoricPlace",
+        "Artwork",
+        "Song",
+        "AcademicPosition",
+        "MilitaryRank",
+        "Award",
+        "Surname",
+        "Gender",
+        "Technology",
+        "Building",
+        "Company",
+        "Product",
+        "Industry",
+        "Vehicle",
+        "Publication",
+        "Group",
+        "Chemical",
+        "Island",
+        "MemoryType",
+        "PoliticalPosition",
+        "Province",
+        "Conflict",
+        "Composer",
+        "Violinist",
+        "Pianist",
+        "Professor",
+        "Student",
+        "University",
+        "Academy",
+        "ComposerSociety",
+        "Prize",
+        "GovernmentBody",
+        "MusicPiece",
+        "ProductionConcept",
+        "Enterprise",
+        "Regulator",
+        "QualityManagement",
+        "Locality",
+        "River",
+        "Resort",
+        "VolleyballPlayer",
+        "VolleyballTeam",
+        "FootballClub",
+        "Economist",
+        "HistoricHouse",
+        "ConstructionStyle",
+        "Mason",
+        "Cricketer",
+        "CricketTeam",
+        "Choreographer",
+        "Bread",
+        "Film",
+        "Musical",
+        "FilmStudio",
+        "ArtDirector",
+        "SportsGround",
+        "City",
+        "Country",
+        "Sport",
+        "CricketMatchType",
+        "RugbyMatchType",
+        "FootballMatchType",
+        "AcademicTitle",
+        "Language",
+        "HistoricDistrict",
+        "ArchitectureStyle",
+        "Fort",
+        "MilitaryRole",
+        "BicycleRacer",
+        "Team",
+        "TelevisionEpisode",
+        "TelevisionSeries",
+        "MotorcycleRacer",
+        "Bishop",
+        "Church",
+        "FootballPlayer",
+        "MusicBand",
+        "MusicAlbum",
+        "RecordLabel",
+        "Highway",
+        "RadioStation",
+        "Format",
+        "Process",
+        "Memorial",
+        "Region",
+        "Book",
+        "Racer",
+        "Competition",
+        "Clergyman",
+        "Prison",
+        "HistoricalBuilding",
+        "Network",
+        "Village",
+        "State",
+        "Constituency",
+        "TimePeriod",
+        "BiologicalConcept",
+        "LegalCase",
+        "SportsTeam",
+        "AcademicInstitution",
+        "SportsEvent",
+        "HistoricalPeriod",
+        "GeographicEntity",
+        "Animal",
+        "Artifact",
+        "BodyPart",
+        "Species",
+        "MedicalCondition",
+        "Beverage",
+        "Settlement",
+        "HistoricPeriod",
+        "EthnicGroup",
+        "EducationalInstitution",
+        "GovernmentAgency",
+        "TransportFacility",
+        "Craft",
+        "LiteraryWork",
+        "NatureReserve",
+        "Plant",
+        "SportsLeague",
+        "MusicGroup",
+        "Park",
+        "BotanicalFeature",
+        "TransportationStation",
+        "MusicProductionWork",
+        "ReligiousBuilding",
+        "Profession",
+        "HistoricHome",
+        "ArchitecturalStyle",
+        "Year",
+        "Mountain",
+        "Album",
+        "MusicChart",
+        "BookSeries",
+        "Hospital",
+        "Literature",
+        "Diplomat",
+        "CourtCase",
+        "Enzyme",
+        "BusinessExecutive",
+        "TelevisionChannel",
+        "HistoricBuilding",
+        "NationalTeam",
+        "Conference",
+        "SkiArea",
+        "Election",
+        "FilmFestival",
+        "SportsCompetition",
+        "Fungus",
+        "Moth",
+        "Software",
+        "Beetle",
+        "OnlineCommunity",
+        "Media",
+        "Library",
+        "Season",
+        "Institution",
+        "MythologicalCharacter",
+        "CulturalHeritage",
+        "AnimalBreed",
+        "Archipelago",
+        "Governor",
+        "SportTeam",
+        "SportMatch",
+        "Tree",
+        "District",
+        "Neighborhood",
+        "AcademicField",
+        "Townland",
+        "CivilParish",
+        "County",
+        "Area",
+        "Census",
+        "Stadium",
+        "Politician",
+        "PoliticalParty",
+        "Union",
+        "Order",
+        "Council",
+        "Athlete",
+        "NaturePark",
+        "Director",
+        "Actor",
+        "AwardNomination",
+        "Play",
+        "HistoricalStructure",
+        "ReligiousSite",
+        "Writer",
+        "Psychologist",
+        "Lecturer",
+        "Instrument",
+        "Clergy",
+        "Documentary",
+        "Meteorologist",
+        "Monk",
+        "Manuscript",
+        "Monastery",
+        "Translator",
+        "Glacier",
+        "Trail",
+        "Submarine",
+        "MilitaryBranch",
+        "WorldWar",
+        "Shipyard",
+        "AthleticsCompetition",
+        "Relic",
+        "Fraternity",
+        "Stream",
+        "Confluence",
+        "Exhibition",
+        "TerroristAttack",
+        "Casualty",
+        "Referendum",
+        "MilitaryGovernment",
+        "Voter",
+        "MilitaryOfficer",
+        "SportsSeason",
+        "Character",
+        "Criminal",
+        "HeritageSite",
+        "Family",
+        "Band",
+        "MusicGenre",
+        "Historian",
+        "AcademicWork",
+        "Insect",
+        "Examination",
+        "SportsClub",
+        "BodyOfWater",
+        "LegislativeBody",
+        "ProtectedArea",
+        "NationalPark",
+        "Municipality",
+        "PoliticalOrganization",
+        "AdvisoryFirm",
+        "InvestmentBank",
+        "Corporation",
+        "FinancialSponsor",
+        "Government",
+        "Project",
+        "FolkloreEntity",
+        "School",
+        "ProtectedMonument",
+        "Cyclist",
+        "Locomotive",
+        "Footballer",
+        "Dynasty",
+        "Monarch",
+        "Artist",
+        "Measurement",
+        "Bank",
+        "Tournament",
+        "Game",
+        "Race",
+        "AthleticAssociation",
+        "AthleticLeague",
+        "PowerStation",
+        "PowerSource",
+        "Trial",
+        "EducationalFoundation",
+        "DegreeProgram",
+        "Lake",
+        "Bacterium",
+        "ChemicalCompound",
+        "License",
+        "OilField",
+        "RailwayStation",
+        "Playwright",
+        "Singer",
+        "MusicEvent",
+        "Musician",
+        "UniversitySportsTeam",
+        "Road",
+        "SportsFacility",
+        "AircraftList",
+        "BuddhistTemple",
+        "ReligiousIcon",
+        "Infrastructure",
+        "EducationalApproach",
+        "Journal",
+        "Tier",
+        "FootballSystem",
+        "InvestmentGroup",
+        "Coach",
+        "MunicipalCorporation",
+        "ScientificConcept",
+        "Mayor",
+        "Business",
+        "ResearchInstitute",
+        "Researcher",
+        "ResearchFacility",
+        "Pioneer",
+        "RecreationArea",
+        "CameraOperator",
+        "NewsChannel",
+        "Protest",
+        "Striker",
+        "Structure",
+        "Object",
+        "Deity",
+        "Novel",
+        "Author",
+        "AdministrativeDivision",
+        "CityDistrict",
+        "GovernmentPosition",
+        "Cabinet",
+        "Theater",
+        "Photographer",
+        "Assembly",
+        "SportCompetition",
+        "ArchaeologicalSite",
+        "MusicalWork",
+        "LegislativeAssembly",
+        "Governorate",
+        "SchoolNetwork",
+        "MusicalScore",
+        "Bridge",
+        "ConstructionCompany",
+        "GolfClub",
+        "Genus",
+        "Period",
+        "Mineral",
+        "Captain",
+        "IonChannel",
+        "ProteinFamily",
+        "Ship",
+        "TelevisionShow",
+        "ProductionCompany",
+        "MeasurementUnit",
+        "MusicArtist",
+        "Restaurant",
+        "MilitaryUnit",
+        "MilitaryPersonnel",
+        "War",
+        "CompanyIndustry",
+        "ArtPeriod",
+        "AdvisoryCouncil",
+        "ScientificCouncil",
+        "Fellowship",
+        "Course",
+        "Platform",
+        "Facility",
+        "Theatre",
+        "HealthcareSystem",
+        "Act",
+        "HealthService",
+        "Continent",
+        "Website",
+        "ArtMovement",
+        "Painter",
+        "ArtisticGenre",
+        "Actress",
+        "Sociologist",
+        "Community",
+        "Earthquake",
+        "Airport",
+        "RadioShow",
+        "SportsPosition",
+        "Scientist",
+        "BiochemicalMethod",
+        "EsportsPlayer",
+        "Town",
+        "Tribe",
+        "Position",
+        "Dam",
+        "Purpose",
+        "RailwayDivision",
+        "BroadcastNetwork",
+        "AcademicJournal",
+        "Club",
+        "GeologicalFeature",
+        "SportsTournament",
+        "Aircraft",
+        "Parade",
+        "Architect",
+        "Record",
+        "SportsOrganization",
+        "GeologicalPeriod",
+        "ArtisticWork",
+        "Museum",
+        "FootballLeague",
+        "DocumentaryFilm",
+        "FilmDirector",
+        "Treatment",
+        "TradeUnion",
+        "CoachingCertification",
+        "Chart",
+        "PoliticalFigure",
+        "Commercial",
+        "BiologicalSpecies",
+        "GeologicalSite",
+        "Scholar",
+        "Shrub",
+        "BasketballPosition",
+        "GivenName",
+        "LiteraryCharacter",
+        "Magazine",
+        "MilitaryInstallation",
+        "PublicServant",
+        "MusicVenue",
+        "PoliticalEntity",
+        "SurnameOrigin",
+        "ArtisticDiscipline",
+        "CulturalOrganization",
+        "ReligiousTitle",
+        "FilmGenre",
+        "Racehorse",
+        "HistoricalSignificance",
+        "HistoricalSociety",
+        "EducationalMethod",
+        "Protein",
+        "Star",
+        "Synagogue",
+        "Legislation",
+        "Gene",
+        "ReligiousOrganization",
+        "ArtGallery",
+        "Zoo",
+        "IslandGroup",
+        "Composition",
+        "Orchestra",
+        "Anniversary",
+        "Championship",
+        "Court",
+        "Player",
+        "ArtStyle",
+        "MusicExecutive",
+        "RecordingLabel",
+        "MedicalConcept",
+        "ElectoralDistrict",
+        "CityCouncil",
+        "ExecutiveCouncil",
+        "Ministry",
+        "TennisTournament",
+        "TennisClub",
+        "Chef",
+        "ChemicalFormula",
+        "Place",
+        "Committee",
+        "Yeast",
+        "Study",
+        "Drama",
+        "TelevisionNetwork",
+        "Cinema",
+        "CharityAdministrator",
+        "CharitableOrganization",
+        "Computer",
+        "Medication",
+        "CulturalAssociation",
+        "Bay",
+        "Contest",
+        "Parent",
+        "Archaeologist",
+        "Summit",
+        "Songwriter",
+        "MusicVideo",
+        "MusicPublishingGroup",
+        "Accident",
+        "Research",
+        "Treaty",
+        "Empire",
+        "ReligiousFigure",
+        "TransportInfrastructure",
+        "HistoricalFigure",
+        "FilmEditor",
+        "HighSchool",
+        "Publisher",
+        "Dance",
+        "Watercourse",
+        "MusicRecording",
+        "ResidentialArea",
+        "Statue",
+        "Snake",
+        "IndigenousGroup",
+        "ProgrammingLanguage",
+        "ProgrammingTool",
+        "Text",
+        "Sculpture",
+        "Noble",
+        "CulturalIdentity",
+        "Hill",
+        "TradeRoute",
+        "Wingspan",
+        "VideoGame",
+        "VideoGameConsole",
+        "ReleaseDate",
+        "RugbyPlayer",
+        "RugbyTeam",
+        "Contract",
+        "Businessman",
+        "Congress",
+        "NetWorth",
+        "FootballTeam",
+        "Diocese",
+        "FraudType",
+        "Income",
+        "TelecommunicationInfrastructure",
+        "CountryEconomy",
+        "FraudAction",
+        "LandUse",
+        "CommunityCouncil",
+        "ResearchInstitution",
+        "ResearchNetwork",
+        "Arena",
+        "ReligiousOrder",
+        "Kingdom",
+        "ArtForm",
+        "Nerve",
+        "Muscle",
+        "ConcentrationCamp",
+        "House",
+        "LandClaim",
+        "Adhesive",
+        "TranscriptionFactor",
+        "RecordingStudio",
+        "Edition",
+        "Soldier",
+        "Ethnicity",
+        "Temple",
+        "Resource",
+        "Site",
+        "PlantingTechnique",
+        "PoliticalDistrict",
+        "Board",
+        "Match",
+        "Parliament",
+        "Queen",
+        "TransportHub",
+        "TransportService",
+        "CulturalEvent",
+        "WarMemorial",
+        "Population",
+        "Painting",
+        "Canton",
+        "Department",
+        "Commune",
+        "Indologist",
+        "PlantFamily",
+        "Educator",
+        "PoliceOfficer",
+        "Poem",
+        "Gymnast",
+        "Librarian",
+        "ArtisticMovement",
+        "BiologicalActivity",
+        "ChemicalSynthesisStep",
+        "PublicationStatus",
+        "Saint",
+        "Century",
+        "SportOrganization",
+        "Bacteria",
+        "Behavior",
+        "LocalGovernmentArea",
+        "CouncilChamber",
+        "HistoricalEvent",
+        "MythologicalFigure",
+        "SeaSlug",
+        "ReligiousDevotion",
+        "ArtisticProject",
+        "Food",
+        "BankingService",
+        "Color",
+        "Yacht",
+        "DesignCompany",
+        "YachtFeature",
+        "FictionalCharacter",
+        "SoapOpera",
+        "Philanthropist",
+        "Lagoon",
+        "FinancialService",
+        "RugbyUnionCompetition",
+        "Train",
+        "Material",
+        "BasketballGame",
+        "BasketballTournament",
+        "Climate"
+    ],
+    "relationships": {
+        "BORN_IN": [
+            {
+                "description": "links a person to their place of birth",
+                "source": "Person",
+                "target": "Location"
+            }
+        ],
+        "BORN_ON": [
+            {
+                "description": "links a person to their date of birth",
+                "source": "Person",
+                "target": "Date"
+            }
+        ],
+        "HAS_NATIONALITY": [
+            {
+                "description": "links a person to their nationality",
+                "source": "Person",
+                "target": "Nationality"
+            }
+        ],
+        "HAS_OCCUPATION": [
+            {
+                "description": "links a person to their occupation",
+                "source": "Person",
+                "target": "Occupation"
+            }
+        ],
+        "PARTICIPATES_IN": [
+            {
+                "description": "links a person to events they are involved in",
+                "source": "Person",
+                "target": "Event"
+            },
+            {
+                "description": "indicates that a person participates in an event or competition",
+                "source": "Person",
+                "target": "Event"
+            },
+            {
+                "description": "links sport teams to matches they play in",
+                "source": "SportTeam",
+                "target": "SportMatch"
+            },
+            {
+                "description": "specifies participation of a politician in an election",
+                "source": "Politician",
+                "target": "Election"
+            },
+            {
+                "description": "links political parties to elections",
+                "source": "PoliticalParty",
+                "target": "Election"
+            }
+        ],
+        "MEMBER_OF": [
+            {
+                "description": "links a person to an organization they are part of",
+                "source": "Person",
+                "target": "Organization"
+            },
+            {
+                "description": "links a fraternity to the country it is established in",
+                "source": "Fraternity",
+                "target": "Country"
+            },
+            {
+                "description": "indicates membership of a person in a club or team",
+                "source": "Person",
+                "target": "SportsClub"
+            },
+            {
+                "description": "specifies membership of a politician in a political party",
+                "source": "Politician",
+                "target": "PoliticalParty"
+            }
+        ],
+        "AUTHORED": [
+            {
+                "description": "links a person to documents they have written",
+                "source": "Person",
+                "target": "Document"
+            }
+        ],
+        "LOCATED_IN": [
+            {
+                "description": "links places to their broader location",
+                "source": "Location",
+                "target": "Location"
+            },
+            {
+                "description": "links an island or a chemical's production to a location",
+                "source": "Island",
+                "target": "Location"
+            },
+            {
+                "description": "specifies that an entity is located within a geographical location",
+                "source": "Highway",
+                "target": "Country"
+            },
+            {
+                "description": "indicates the location of a park or geographical feature",
+                "source": "Park",
+                "target": "Location"
+            },
+            {
+                "description": "links a townland to its civil parish",
+                "source": "Townland",
+                "target": "CivilParish"
+            },
+            {
+                "description": "links a shipyard to the city it is located in",
+                "source": "Shipyard",
+                "target": "City"
+            },
+            {
+                "description": "indicates that a village is located within an administrative division",
+                "source": "Village",
+                "target": "AdministrativeDivision"
+            },
+            {
+                "description": "links a railway station to the location it serves",
+                "source": "RailwayStation",
+                "target": "Location"
+            },
+            {
+                "description": "associates an event or organization with a location",
+                "source": "Event",
+                "target": "Location"
+            },
+            {
+                "description": "specifies where a mountain is located",
+                "source": "Mountain",
+                "target": "Region"
+            },
+            {
+                "description": "specifies where a tennis club is located",
+                "source": "TennisClub",
+                "target": "Location"
+            },
+            {
+                "description": "indicates that an island is located in a country",
+                "source": "Island",
+                "target": "Country"
+            },
+            {
+                "description": "links a district to its province",
+                "source": "District",
+                "target": "Province"
+            }
+        ],
+        "OCCURS_IN": [
+            {
+                "description": "links events to the locations where they take place",
+                "source": "Event",
+                "target": "Location"
+            }
+        ],
+        "OCCURS_ON": [
+            {
+                "description": "links events to their dates",
+                "source": "Event",
+                "target": "Date"
+            }
+        ],
+        "PART_OF": [
+            {
+                "description": "links entities that are part of a larger context",
+                "source": "Organization",
+                "target": "Event"
+            },
+            {
+                "description": "links a person to a group they are a member of",
+                "source": "Person",
+                "target": "Group"
+            },
+            {
+                "description": "links a locality to the river it is adjacent to",
+                "source": "Locality",
+                "target": "River"
+            },
+            {
+                "description": "links a film to the studio where it was produced",
+                "source": "Film",
+                "target": "FilmStudio"
+            },
+            {
+                "description": "indicates membership of a team in a league",
+                "source": "SportsTeam",
+                "target": "SportsLeague"
+            },
+            {
+                "description": "links a submarine to the military branch it belongs to",
+                "source": "Submarine",
+                "target": "MilitaryBranch"
+            },
+            {
+                "description": "indicates that an entity is a part of another entity",
+                "source": "Building",
+                "target": "HeritageSite"
+            },
+            {
+                "description": "associates entities as a member or subset of a national team",
+                "source": "Person",
+                "target": "NationalTeam"
+            },
+            {
+                "description": "indicates that a person is part of a particular surname group",
+                "source": "Person",
+                "target": "Surname"
+            },
+            {
+                "description": "links a season to the football club it belongs to",
+                "source": "Season",
+                "target": "FootballClub"
+            },
+            {
+                "description": "indicates that a building or structure is part of a historic district",
+                "source": "Building",
+                "target": "HistoricDistrict"
+            },
+            {
+                "description": "links a government position to the cabinet it is part of",
+                "source": "GovernmentPosition",
+                "target": "Cabinet"
+            },
+            {
+                "description": "links a building part to the main building",
+                "source": "Theater",
+                "target": "Building"
+            },
+            {
+                "description": "links artwork to an art movement",
+                "source": "Artwork",
+                "target": "ArtMovement"
+            },
+            {
+                "description": "links a historical event or entity to the period it belongs to",
+                "source": "Event",
+                "target": "HistoricalPeriod"
+            },
+            {
+                "description": "links a trail segment to the larger trail it is part of",
+                "source": "Trail",
+                "target": "Trail"
+            }
+        ],
+        "CREATED": [
+            {
+                "description": "links creators to their works",
+                "source": "Person",
+                "target": "Artwork"
+            }
+        ],
+        "PERFORMED": [
+            {
+                "description": "links artists to their performances",
+                "source": "Person",
+                "target": "Song"
+            }
+        ],
+        "HOLDS_POSITION": [
+            {
+                "description": "links a person to their academic or professional position",
+                "source": "Person",
+                "target": "AcademicPosition"
+            }
+        ],
+        "SERVES_AS": [
+            {
+                "description": "links military personnel to their rank",
+                "source": "Person",
+                "target": "MilitaryRank"
+            },
+            {
+                "description": "indicates that a person serves in a specific role or capacity",
+                "source": "Clergyman",
+                "target": "MilitaryRole"
+            },
+            {
+                "description": "links a police officer to their role",
+                "source": "PoliceOfficer",
+                "target": "Organization"
+            }
+        ],
+        "RECEIVES": [
+            {
+                "description": "links recipients to awards they have received",
+                "source": "Person",
+                "target": "Award"
+            }
+        ],
+        "LISTED_IN": [
+            {
+                "description": "links historic places to registries",
+                "source": "HistoricPlace",
+                "target": "Document"
+            }
+        ],
+        "HAS_SURNAME": [
+            {
+                "description": "links a person to their surname",
+                "source": "Person",
+                "target": "Surname"
+            }
+        ],
+        "HAS_GENDER": [
+            {
+                "description": "links a person to their gender",
+                "source": "Person",
+                "target": "Gender"
+            }
+        ],
+        "USES_TECHNOLOGY": [
+            {
+                "description": "links a process or event to the technology used",
+                "source": "Event",
+                "target": "Technology"
+            }
+        ],
+        "PRODUCES": [
+            {
+                "description": "links companies to the products they produce",
+                "source": "Company",
+                "target": "Product"
+            },
+            {
+                "description": "indicates that a process produces a specific chemical or product",
+                "source": "Process",
+                "target": "Chemical"
+            },
+            {
+                "description": "associates a bacterium with the compounds it produces",
+                "source": "Bacterium",
+                "target": "ChemicalCompound"
+            }
+        ],
+        "OPERATES_IN": [
+            {
+                "description": "links companies to the industries they are part of",
+                "source": "Company",
+                "target": "Industry"
+            },
+            {
+                "description": "links a radio station to its location",
+                "source": "RadioStation",
+                "target": "Location"
+            },
+            {
+                "description": "specifies the operation of a company in an industry",
+                "source": "Company",
+                "target": "Industry"
+            }
+        ],
+        "PART_OF_EVENT": [
+            {
+                "description": "links participants or elements to the events they are part of",
+                "source": "Person",
+                "target": "Event"
+            }
+        ],
+        "IS_TYPE_OF": [
+            {
+                "description": "links specific vehicles to their general type",
+                "source": "Vehicle",
+                "target": "Vehicle"
+            },
+            {
+                "description": "links a shrub to its biological classification",
+                "source": "Shrub",
+                "target": "BiologicalSpecies"
+            }
+        ],
+        "DIED_IN": [
+            {
+                "description": "links a person to their place of death",
+                "source": "Person",
+                "target": "Location"
+            },
+            {
+                "description": "indicates a person died in a protest",
+                "source": "CameraOperator",
+                "target": "Protest"
+            }
+        ],
+        "LIVES_IN": [
+            {
+                "description": "links a person to their current residence",
+                "source": "Person",
+                "target": "Location"
+            }
+        ],
+        "INCLUDED_IN": [
+            {
+                "description": "links an artwork to a publication it is included in",
+                "source": "Artwork",
+                "target": "Publication"
+            },
+            {
+                "description": "links a ship to a list or collection",
+                "source": "Ship",
+                "target": "Event"
+            }
+        ],
+        "ASSOCIATED_WITH": [
+            {
+                "description": "links a person to a memory type they study or exhibit",
+                "source": "Person",
+                "target": "MemoryType"
+            },
+            {
+                "description": "links a person to a body of water where a sport or activity takes place",
+                "source": "Person",
+                "target": "BodyOfWater"
+            },
+            {
+                "description": "links an artist to an art movement they are associated with",
+                "source": "Artist",
+                "target": "ArtMovement"
+            },
+            {
+                "description": "links a surname to notable people who have it",
+                "source": "Surname",
+                "target": "Person"
+            },
+            {
+                "description": "indicates an association between two entities",
+                "source": "Village",
+                "target": "ConcentrationCamp"
+            },
+            {
+                "description": "links a concentration camp to related entities or events",
+                "source": "ConcentrationCamp",
+                "target": "Location"
+            }
+        ],
+        "GOVERNS": [
+            {
+                "description": "links a person to a province they govern",
+                "source": "Person",
+                "target": "Province"
+            }
+        ],
+        "INVOLVED_IN": [
+            {
+                "description": "links a person or group to a conflict they are involved in",
+                "source": "Person",
+                "target": "Conflict"
+            }
+        ],
+        "HAS_PROFESSION": [
+            {
+                "description": "links a person to their profession",
+                "source": "Person",
+                "target": "Composer"
+            }
+        ],
+        "STUDIED_AT": [
+            {
+                "description": "links a person to the university where they studied",
+                "source": "Person",
+                "target": "University"
+            }
+        ],
+        "FOUNDED": [
+            {
+                "description": "links founders to the organization they helped to establish",
+                "source": "Person",
+                "target": "ComposerSociety"
+            }
+        ],
+        "AWARDED": [
+            {
+                "description": "links a person to the prize they won",
+                "source": "Person",
+                "target": "Prize"
+            },
+            {
+                "description": "indicates receipt of an award",
+                "source": "Person",
+                "target": "Award"
+            }
+        ],
+        "PLAYS_FOR": [
+            {
+                "description": "links a player to the team they play for",
+                "source": "VolleyballPlayer",
+                "target": "VolleyballTeam"
+            },
+            {
+                "description": "indicates a footballer plays for a club",
+                "source": "Footballer",
+                "target": "FootballClub"
+            }
+        ],
+        "DESIGNED_BY": [
+            {
+                "description": "links a film to its art director",
+                "source": "Film",
+                "target": "ArtDirector"
+            },
+            {
+                "description": "indicates who designed a particular structure or building",
+                "source": "Church",
+                "target": "Person"
+            }
+        ],
+        "HOSTS": [
+            {
+                "description": "links a sports ground to the types of sports it hosts",
+                "source": "SportsGround",
+                "target": "Sport"
+            },
+            {
+                "description": "indicates that a location is the venue for an event",
+                "source": "Stadium",
+                "target": "Event"
+            }
+        ],
+        "STUDIES_LANGUAGE": [
+            {
+                "description": "links a person to the language they study",
+                "source": "Person",
+                "target": "Language"
+            }
+        ],
+        "AFFILIATED_WITH": [
+            {
+                "description": "links a person to the university where they work",
+                "source": "Person",
+                "target": "University"
+            },
+            {
+                "description": "indicates an association or connection between two entities",
+                "source": "EducationalInstitution",
+                "target": "University"
+            },
+            {
+                "description": "indicates that a person is affiliated with a political party",
+                "source": "Person",
+                "target": "PoliticalParty"
+            },
+            {
+                "description": "links a buddhist temple to its religious sect",
+                "source": "BuddhistTemple",
+                "target": "ReligiousIcon"
+            }
+        ],
+        "EXEMPLIFIES": [
+            {
+                "description": "links buildings to their architectural style",
+                "source": "Building",
+                "target": "ArchitectureStyle"
+            }
+        ],
+        "SERVES_IN": [
+            {
+                "description": "links military personnel to their fort",
+                "source": "Person",
+                "target": "Fort"
+            },
+            {
+                "description": "links a person to the legislative body they serve in",
+                "source": "Person",
+                "target": "LegislativeBody"
+            }
+        ],
+        "HOLDS_ROLE": [
+            {
+                "description": "links a person to their military role",
+                "source": "Person",
+                "target": "MilitaryRole"
+            }
+        ],
+        "EPISODE_OF": [
+            {
+                "description": "links a television episode to its series",
+                "source": "TelevisionEpisode",
+                "target": "TelevisionSeries"
+            }
+        ],
+        "LEADS": [
+            {
+                "description": "links a bishop to their church",
+                "source": "Bishop",
+                "target": "Church"
+            },
+            {
+                "description": "indicates a leadership role within a political organization",
+                "source": "Person",
+                "target": "PoliticalOrganization"
+            },
+            {
+                "description": "links a person to a project or organization they lead",
+                "source": "Person",
+                "target": "ResearchNetwork"
+            }
+        ],
+        "PERFORMED_BY": [
+            {
+                "description": "links a song to the band that performs it",
+                "source": "Song",
+                "target": "MusicBand"
+            }
+        ],
+        "TRACK_OF": [
+            {
+                "description": "links a song to the album it belongs to",
+                "source": "Song",
+                "target": "MusicAlbum"
+            }
+        ],
+        "RELEASED_BY": [
+            {
+                "description": "links a music album to its record label",
+                "source": "MusicAlbum",
+                "target": "RecordLabel"
+            }
+        ],
+        "OPERATED_BY": [
+            {
+                "description": "indicates that an entity is managed or operated by another entity",
+                "source": "RadioStation",
+                "target": "Company"
+            },
+            {
+                "description": "links a museum to the historical society that operates it",
+                "source": "Museum",
+                "target": "HistoricalSociety"
+            }
+        ],
+        "USES_FORMAT": [
+            {
+                "description": "indicates that a radio station uses a specific broadcasting format",
+                "source": "RadioStation",
+                "target": "Format"
+            }
+        ],
+        "AUTHORS": [
+            {
+                "description": "indicates that a person has authored a book",
+                "source": "Person",
+                "target": "Book"
+            },
+            {
+                "description": "links a person to a publication they wrote",
+                "source": "Person",
+                "target": "Publication"
+            }
+        ],
+        "COMPETES_IN": [
+            {
+                "description": "indicates that a racer competes in a specific competition",
+                "source": "Racer",
+                "target": "Competition"
+            },
+            {
+                "description": "links a person to the sport they compete in",
+                "source": "Person",
+                "target": "Sport"
+            }
+        ],
+        "FEATURED_IN": [
+            {
+                "description": "indicates that a television series is featured on a specific network",
+                "source": "TelevisionSeries",
+                "target": "Network"
+            },
+            {
+                "description": "links an artwork to an exhibition where it is featured",
+                "source": "Artwork",
+                "target": "Exhibition"
+            },
+            {
+                "description": "links a character to the literary work they appear in",
+                "source": "Character",
+                "target": "LiteraryWork"
+            }
+        ],
+        "REPRESENTED_BY": [
+            {
+                "description": "links a constituency to its representative assembly",
+                "source": "Constituency",
+                "target": "Organization"
+            }
+        ],
+        "FOUNDED_BY": [
+            {
+                "description": "links an organization to its founder",
+                "source": "Organization",
+                "target": "Person"
+            }
+        ],
+        "EXISTS_DURING": [
+            {
+                "description": "links an entity to the historical period it existed during",
+                "source": "GeographicEntity",
+                "target": "HistoricalPeriod"
+            }
+        ],
+        "HELD_AT": [
+            {
+                "description": "links an event to the location where it was held",
+                "source": "Event",
+                "target": "Location"
+            },
+            {
+                "description": "specifies the location of a tennis tournament",
+                "source": "TennisTournament",
+                "target": "TennisClub"
+            }
+        ],
+        "USES": [
+            {
+                "description": "links a person or team to an artifact or vehicle they use",
+                "source": "Person",
+                "target": "Vehicle"
+            },
+            {
+                "description": "links an educational approach to the resources it utilizes",
+                "source": "EducationalApproach",
+                "target": "Infrastructure"
+            }
+        ],
+        "DISCOVERS": [
+            {
+                "description": "links a person to an artifact they discovered",
+                "source": "Person",
+                "target": "Artifact"
+            }
+        ],
+        "CARVED_FROM": [
+            {
+                "description": "links an artifact to the material or animal part it was made from",
+                "source": "Artifact",
+                "target": "Animal"
+            }
+        ],
+        "WORKS_IN": [
+            {
+                "description": "links a person to their field of work or occupation",
+                "source": "Person",
+                "target": "Occupation"
+            },
+            {
+                "description": "indicates the genre or field a person primarily works in",
+                "source": "Painter",
+                "target": "ArtisticGenre"
+            }
+        ],
+        "AFFECTS": [
+            {
+                "description": "links a medical condition to the body part it affects",
+                "source": "MedicalCondition",
+                "target": "BodyPart"
+            }
+        ],
+        "ENDANGERED_BY": [
+            {
+                "description": "links a settlement or population to a historic event that threatened its existence",
+                "source": "Settlement",
+                "target": "Event"
+            }
+        ],
+        "BELONGS_TO": [
+            {
+                "description": "links a species to the location it is endemic to",
+                "source": "Species",
+                "target": "Location"
+            },
+            {
+                "description": "links animal breeds to their geographical or cultural origin",
+                "source": "AnimalBreed",
+                "target": "Location"
+            },
+            {
+                "description": "indicates that an entity is part of or belongs to another entity",
+                "source": "Monastery",
+                "target": "HistoricalPeriod"
+            },
+            {
+                "description": "links a district to the governorate it is part of",
+                "source": "District",
+                "target": "Governorate"
+            },
+            {
+                "description": "links a plant to the tribe and family it belongs to",
+                "source": "Plant",
+                "target": "Tribe"
+            },
+            {
+                "description": "associates a species with its taxonomic classification",
+                "source": "Species",
+                "target": "Species"
+            },
+            {
+                "description": "indicates belonging of a genus to a geological period",
+                "source": "Genus",
+                "target": "GeologicalPeriod"
+            },
+            {
+                "description": "links a composer to the union they are a member of",
+                "source": "Composer",
+                "target": "Union"
+            }
+        ],
+        "IS_PRESIDENT_OF": [
+            {
+                "description": "links a person to the organization they preside over",
+                "source": "Person",
+                "target": "Organization"
+            }
+        ],
+        "IS_PART_OF": [
+            {
+                "description": "links an organization to its location",
+                "source": "Organization",
+                "target": "Location"
+            },
+            {
+                "description": "indicates that a village is part of a larger administrative area",
+                "source": "Village",
+                "target": "Country"
+            }
+        ],
+        "SERVED_AS": [
+            {
+                "description": "links a person to their role in a government agency",
+                "source": "Person",
+                "target": "GovernmentAgency"
+            }
+        ],
+        "IS_AWARDED": [
+            {
+                "description": "links a person to an award they have received",
+                "source": "Person",
+                "target": "Award"
+            }
+        ],
+        "IS_REGISTERED_AS": [
+            {
+                "description": "links a craft to its geographical indication",
+                "source": "Craft",
+                "target": "Location"
+            }
+        ],
+        "IS_PART_OF_SERIES": [
+            {
+                "description": "links a literary work to the series it is part of",
+                "source": "LiteraryWork",
+                "target": "LiterarySeries"
+            }
+        ],
+        "IS_LOCATED_IN": [
+            {
+                "description": "links a nature reserve to its location",
+                "source": "NatureReserve",
+                "target": "Location"
+            }
+        ],
+        "HAS_SPECIES": [
+            {
+                "description": "links a nature reserve to the types of animals it hosts",
+                "source": "NatureReserve",
+                "target": "Animal"
+            }
+        ],
+        "HAS_PLANT": [
+            {
+                "description": "links a nature reserve to the types of plants it contains",
+                "source": "NatureReserve",
+                "target": "Plant"
+            }
+        ],
+        "BASED_IN": [
+            {
+                "description": "indicates where a team or organization is located",
+                "source": "SportsTeam",
+                "target": "Location"
+            },
+            {
+                "description": "links a person or institution to their location",
+                "source": "Person",
+                "target": "Location"
+            }
+        ],
+        "RELEASED_ON": [
+            {
+                "description": "indicates the release date of a music album",
+                "source": "MusicAlbum",
+                "target": "Date"
+            }
+        ],
+        "PRODUCED_BY": [
+            {
+                "description": "links an album to its producer",
+                "source": "MusicAlbum",
+                "target": "Person"
+            },
+            {
+                "description": "indicates that a work (music, film, etc.) was produced by a person or entity",
+                "source": "MusicProductionWork",
+                "target": "Person"
+            }
+        ],
+        "DISTRIBUTED_BY": [
+            {
+                "description": "links an album to its distributing label",
+                "source": "MusicAlbum",
+                "target": "RecordLabel"
+            }
+        ],
+        "CONTAINS": [
+            {
+                "description": "indicates that a park contains certain botanical features",
+                "source": "Park",
+                "target": "BotanicalFeature"
+            },
+            {
+                "description": "indicates that an institute contains research facilities",
+                "source": "ResearchInstitute",
+                "target": "ResearchFacility"
+            },
+            {
+                "description": "indicates what a historic district contains in terms of resources",
+                "source": "HistoricDistrict",
+                "target": "Resource"
+            }
+        ],
+        "FEEDS_ON": [
+            {
+                "description": "indicates that an animal feeds on a specific plant",
+                "source": "Animal",
+                "target": "Plant"
+            }
+        ],
+        "OPENED_ON": [
+            {
+                "description": "indicates the date an establishment or station started operating",
+                "source": "TransportationStation",
+                "target": "Date"
+            }
+        ],
+        "RELEASED_IN": [
+            {
+                "description": "indicates the release or premiere date of a film, series, or music work",
+                "source": "Film",
+                "target": "Date"
+            },
+            {
+                "description": "links a film or book to the year it was released",
+                "source": "Film",
+                "target": "Year"
+            }
+        ],
+        "FEATURES": [
+            {
+                "description": "indicates that a television series features a specific event or theme",
+                "source": "TelevisionSeries",
+                "target": "Event"
+            },
+            {
+                "description": "links a film to actors featured in it",
+                "source": "Film",
+                "target": "Actor"
+            },
+            {
+                "description": "links a location to sculptures located there",
+                "source": "Location",
+                "target": "Sculpture"
+            },
+            {
+                "description": "links a yacht to its features",
+                "source": "Yacht",
+                "target": "YachtFeature"
+            }
+        ],
+        "WORKS_AS": [
+            {
+                "description": "indicates the profession of a person",
+                "source": "Person",
+                "target": "Profession"
+            },
+            {
+                "description": "links a person to their occupation",
+                "source": "Person",
+                "target": "Occupation"
+            }
+        ],
+        "BUILT_IN": [
+            {
+                "description": "specifies the year an entity was built or established",
+                "source": "HistoricHome",
+                "target": "Year"
+            },
+            {
+                "description": "indicates the architectural style of a building",
+                "source": "Church",
+                "target": "ArchitecturalStyle"
+            },
+            {
+                "description": "links a building to the date it was constructed",
+                "source": "HistoricBuilding",
+                "target": "Date"
+            }
+        ],
+        "DESIGNED_AS": [
+            {
+                "description": "specifies the architectural style of a building",
+                "source": "HistoricHome",
+                "target": "ArchitecturalStyle"
+            }
+        ],
+        "CONCERNED_WITH": [
+            {
+                "description": "links an organization to an event it deals with",
+                "source": "Organization",
+                "target": "Event"
+            }
+        ],
+        "FLOW_INTO": [
+            {
+                "description": "specifies where a river flows into another water body",
+                "source": "River",
+                "target": "River"
+            }
+        ],
+        "CHARTED_ON": [
+            {
+                "description": "links an album to the music chart it appeared on",
+                "source": "Album",
+                "target": "MusicChart"
+            }
+        ],
+        "WRITTEN_BY": [
+            {
+                "description": "links a book or series to its author",
+                "source": "BookSeries",
+                "target": "Person"
+            },
+            {
+                "description": "indicates who wrote a film",
+                "source": "Film",
+                "target": "Person"
+            }
+        ],
+        "PARTICIPATED_IN": [
+            {
+                "description": "links a person to an event they participated in",
+                "source": "Person",
+                "target": "Event"
+            },
+            {
+                "description": "links a submarine to a war it participated in",
+                "source": "Submarine",
+                "target": "WorldWar"
+            },
+            {
+                "description": "indicates participation in a sports event",
+                "source": "Person",
+                "target": "Event"
+            }
+        ],
+        "PLAYS_IN": [
+            {
+                "description": "links a sports team to the league they play in",
+                "source": "SportsTeam",
+                "target": "SportsLeague"
+            }
+        ],
+        "PART_OF_CULTURE": [
+            {
+                "description": "links literature to the culture it is part of",
+                "source": "Literature",
+                "target": "Location"
+            }
+        ],
+        "WORKS_FOR": [
+            {
+                "description": "links a person to the organization they work for",
+                "source": "Person",
+                "target": "Organization"
+            }
+        ],
+        "HELD_ON": [
+            {
+                "description": "links an event to the date it occurred",
+                "source": "Event",
+                "target": "Date"
+            }
+        ],
+        "REPRESENTS": [
+            {
+                "description": "links a person to the team or country they represent",
+                "source": "Person",
+                "target": "SportsTeam"
+            },
+            {
+                "description": "links mythological characters to the cultural or literary works they appear in",
+                "source": "MythologicalCharacter",
+                "target": "CulturalHeritage"
+            },
+            {
+                "description": "indicates a politician represents a region",
+                "source": "Politician",
+                "target": "Region"
+            },
+            {
+                "description": "indicates that a statue or artwork represents a person or concept",
+                "source": "Statue",
+                "target": "Person"
+            },
+            {
+                "description": "links artistic works to the movement they are part of",
+                "source": "Poem",
+                "target": "ArtisticMovement"
+            }
+        ],
+        "IS_A_TYPE_OF": [
+            {
+                "description": "links a specific type of enzyme to its general class",
+                "source": "Enzyme",
+                "target": "Enzyme"
+            }
+        ],
+        "RULED_BY": [
+            {
+                "description": "links a court case to the court that made the ruling",
+                "source": "CourtCase",
+                "target": "CourtCase"
+            }
+        ],
+        "BROADCASTS_IN": [
+            {
+                "description": "links a television channel to the location it broadcasts in",
+                "source": "TelevisionChannel",
+                "target": "Location"
+            }
+        ],
+        "LISTED_AS": [
+            {
+                "description": "links a historic building to its registry status",
+                "source": "HistoricBuilding",
+                "target": "HistoricBuilding"
+            }
+        ],
+        "ORGANIZED_BY": [
+            {
+                "description": "links an event to the organization that organizes it",
+                "source": "Event",
+                "target": "Organization"
+            }
+        ],
+        "INCLUDES": [
+            {
+                "description": "links a ski area to its member villages",
+                "source": "SkiArea",
+                "target": "Location"
+            },
+            {
+                "description": "indicates that a license includes certain oil fields",
+                "source": "License",
+                "target": "OilField"
+            },
+            {
+                "description": "links a music album to songs included in it",
+                "source": "MusicAlbum",
+                "target": "Song"
+            },
+            {
+                "description": "links a historic district to buildings it includes",
+                "source": "HistoricDistrict",
+                "target": "Building"
+            }
+        ],
+        "HELD_IN": [
+            {
+                "description": "links an event to the location where it is held",
+                "source": "Event",
+                "target": "Location"
+            }
+        ],
+        "SCREENED_AT": [
+            {
+                "description": "links a film to the film festival where it was screened",
+                "source": "Film",
+                "target": "FilmFestival"
+            }
+        ],
+        "VOTED_IN": [
+            {
+                "description": "links a location to the election held there",
+                "source": "Location",
+                "target": "Election"
+            }
+        ],
+        "NATIVE_TO": [
+            {
+                "description": "indicates the native location of a species",
+                "source": "Species",
+                "target": "Location"
+            }
+        ],
+        "BELONGS_TO_FAMILY": [
+            {
+                "description": "links a species to its taxonomic family",
+                "source": "Species",
+                "target": "Fungus"
+            }
+        ],
+        "DESCRIBED_BY": [
+            {
+                "description": "links a species or entity to the person who described it",
+                "source": "Species",
+                "target": "Person"
+            }
+        ],
+        "FOUND_IN": [
+            {
+                "description": "indicates the geographical location where a species or object is found",
+                "source": "Species",
+                "target": "Location"
+            }
+        ],
+        "DIRECTED_BY": [
+            {
+                "description": "links a film to its director",
+                "source": "Film",
+                "target": "Person"
+            },
+            {
+                "description": "indicates who is the director of an institute",
+                "source": "ResearchInstitute",
+                "target": "Person"
+            }
+        ],
+        "STARS_IN": [
+            {
+                "description": "links actors to the films they appear in",
+                "source": "Person",
+                "target": "Film"
+            }
+        ],
+        "DEVELOPED_BY": [
+            {
+                "description": "links software to the company or individual that developed it",
+                "source": "Software",
+                "target": "Person"
+            }
+        ],
+        "ENDANGERED_IN": [
+            {
+                "description": "links a species to a location where it is endangered",
+                "source": "Species",
+                "target": "Location"
+            }
+        ],
+        "HOSTED_BY": [
+            {
+                "description": "links an event to the location where it is held",
+                "source": "Event",
+                "target": "Location"
+            }
+        ],
+        "PROVIDES": [
+            {
+                "description": "links a service or software to the functionality it provides",
+                "source": "Software",
+                "target": "OnlineCommunity"
+            },
+            {
+                "description": "indicates that a power station provides a certain type of power source",
+                "source": "PowerStation",
+                "target": "PowerSource"
+            }
+        ],
+        "CONSTRUCTED_IN": [
+            {
+                "description": "links a building to the time period it was constructed",
+                "source": "Building",
+                "target": "Event"
+            }
+        ],
+        "WORKS_AT": [
+            {
+                "description": "links a person to their place of employment",
+                "source": "Person",
+                "target": "Institution"
+            },
+            {
+                "description": "indicates that a person works at a specific location or institution",
+                "source": "Person",
+                "target": "Monastery"
+            }
+        ],
+        "DIED_ON": [
+            {
+                "description": "links a person to their date of death",
+                "source": "Person",
+                "target": "Date"
+            }
+        ],
+        "LIVED_DURING": [
+            {
+                "description": "links historical figures to the periods in which they lived",
+                "source": "Person",
+                "target": "HistoricalPeriod"
+            }
+        ],
+        "DISCHARGES_INTO": [
+            {
+                "description": "indicates where a river ends or discharges its water",
+                "source": "River",
+                "target": "Ocean"
+            }
+        ],
+        "CORRESPONDS_TO": [
+            {
+                "description": "indicates a rough equivalence or correspondence between two entities",
+                "source": "District",
+                "target": "Province"
+            }
+        ],
+        "MANAGES": [
+            {
+                "description": "links a person to an organization they manage",
+                "source": "Person",
+                "target": "Organization"
+            }
+        ],
+        "WON_AWARD": [
+            {
+                "description": "links a person to an award they have won",
+                "source": "Person",
+                "target": "Award"
+            }
+        ],
+        "TEACHES_AT": [
+            {
+                "description": "links a person to an academic institution where they teach",
+                "source": "Person",
+                "target": "Organization"
+            }
+        ],
+        "REPLACES": [
+            {
+                "description": "links an artifact that can replace another",
+                "source": "Artifact",
+                "target": "Artifact"
+            }
+        ],
+        "HAS_AREA": [
+            {
+                "description": "links a location to its area",
+                "source": "Location",
+                "target": "Area"
+            }
+        ],
+        "HAS_CENSUS_DATA": [
+            {
+                "description": "links a location to its census data",
+                "source": "Location",
+                "target": "Census"
+            }
+        ],
+        "RECEIVED_AWARD": [
+            {
+                "description": "links a person to an award they received",
+                "source": "Person",
+                "target": "Award"
+            }
+        ],
+        "HAS_PEAK": [
+            {
+                "description": "links a nature park to its highest mountain",
+                "source": "NaturePark",
+                "target": "Mountain"
+            }
+        ],
+        "NOMINATED_FOR": [
+            {
+                "description": "links a person to an award nomination they received",
+                "source": "Person",
+                "target": "AwardNomination"
+            }
+        ],
+        "BASED_ON": [
+            {
+                "description": "links a film to the play it is based on",
+                "source": "Film",
+                "target": "Play"
+            },
+            {
+                "description": "links a television show to its original format",
+                "source": "TelevisionShow",
+                "target": "TelevisionShow"
+            },
+            {
+                "description": "links a document to its underlying research or findings",
+                "source": "Document",
+                "target": "Research"
+            }
+        ],
+        "PRACTICES_SPORT": [
+            {
+                "description": "associates an athlete with the sport they practice",
+                "source": "Athlete",
+                "target": "Sport"
+            }
+        ],
+        "FEATURES_IN": [
+            {
+                "description": "indicates that a person or entity features in a film or documentary",
+                "source": "Person",
+                "target": "Film"
+            }
+        ],
+        "HOLDS_RANK": [
+            {
+                "description": "associates a military personnel with their rank",
+                "source": "Person",
+                "target": "MilitaryRank"
+            }
+        ],
+        "IS_A": [
+            {
+                "description": "indicates that an entity is a type or instance of another",
+                "source": "Monk",
+                "target": "Person"
+            },
+            {
+                "description": "specifies the type or category of a species",
+                "source": "Species",
+                "target": "Species"
+            },
+            {
+                "description": "links a specific type of protein or ion channel to its broader family",
+                "source": "IonChannel",
+                "target": "ProteinFamily"
+            },
+            {
+                "description": "links an insect to its species",
+                "source": "Insect",
+                "target": "Species"
+            },
+            {
+                "description": "links a specific site to its type classification",
+                "source": "GeologicalSite",
+                "target": "Location"
+            },
+            {
+                "description": "specifies the type of a name as a given name",
+                "source": "GivenName",
+                "target": "NameType"
+            },
+            {
+                "description": "defines the type of a person as an athlete",
+                "source": "Athlete",
+                "target": "Person"
+            },
+            {
+                "description": "general relationship for categorization",
+                "source": "Animal",
+                "target": "Species"
+            },
+            {
+                "description": "links a person to their profession or role",
+                "source": "Person",
+                "target": "Occupation"
+            }
+        ],
+        "RESIDES_IN": [
+            {
+                "description": "indicates where a person lives or where an entity is located",
+                "source": "Person",
+                "target": "Location"
+            },
+            {
+                "description": "links folklore entities to their habitats",
+                "source": "FolkloreEntity",
+                "target": "Location"
+            },
+            {
+                "description": "links residents to their village",
+                "source": "Person",
+                "target": "Village"
+            }
+        ],
+        "TRANSLATES": [
+            {
+                "description": "indicates that a person translates a document or text",
+                "source": "Translator",
+                "target": "Manuscript"
+            }
+        ],
+        "IS_ENDOWED_WITH": [
+            {
+                "description": "indicates that a location or institution is provided with resources or items",
+                "source": "Monastery",
+                "target": "Manuscript"
+            }
+        ],
+        "IS_NATIVE_TO": [
+            {
+                "description": "indicates that a plant species is native to a specific geographical area",
+                "source": "Plant",
+                "target": "Location"
+            }
+        ],
+        "OFFERS_PROGRAM": [
+            {
+                "description": "indicates that an educational institution offers a specific program or course",
+                "source": "EducationalInstitution",
+                "target": "Event"
+            }
+        ],
+        "CONVERTED_TO": [
+            {
+                "description": "indicates that one type of entity has been transformed into another",
+                "source": "Trail",
+                "target": "Location"
+            }
+        ],
+        "BUILT_AT": [
+            {
+                "description": "links a submarine to the shipyard where it was built",
+                "source": "Submarine",
+                "target": "Shipyard"
+            }
+        ],
+        "HOUSES": [
+            {
+                "description": "links a religious building to the relics it houses",
+                "source": "ReligiousBuilding",
+                "target": "Relic"
+            },
+            {
+                "description": "links a zoo to the animals it houses",
+                "source": "Zoo",
+                "target": "Animal"
+            }
+        ],
+        "ENDEMIC_TO": [
+            {
+                "description": "links a species to the region it is endemic to",
+                "source": "Species",
+                "target": "Location"
+            }
+        ],
+        "CREATES": [
+            {
+                "description": "links an artist to their artwork",
+                "source": "Person",
+                "target": "Artwork"
+            }
+        ],
+        "CAUSES": [
+            {
+                "description": "links a terrorist attack to the casualties it causes",
+                "source": "TerroristAttack",
+                "target": "Casualty"
+            }
+        ],
+        "CONDUCTED_BY": [
+            {
+                "description": "links a referendum to the government that conducted it",
+                "source": "Referendum",
+                "target": "MilitaryGovernment"
+            },
+            {
+                "description": "links a study to the university or institution that conducted it",
+                "source": "Study",
+                "target": "University"
+            }
+        ],
+        "VOTED_ON": [
+            {
+                "description": "links voters to a referendum they voted on",
+                "source": "Voter",
+                "target": "Referendum"
+            }
+        ],
+        "DURING": [
+            {
+                "description": "links a sports season to the dates it spans",
+                "source": "SportsSeason",
+                "target": "Date"
+            }
+        ],
+        "PERFORMS_GENRE": [
+            {
+                "description": "indicates that a band performs a specific music genre",
+                "source": "Band",
+                "target": "MusicGenre"
+            }
+        ],
+        "SIGNED_BY": [
+            {
+                "description": "indicates that a band is signed by a specific record label",
+                "source": "Band",
+                "target": "RecordLabel"
+            }
+        ],
+        "AUTHORED_BY": [
+            {
+                "description": "indicates that an academic work is authored by a person",
+                "source": "AcademicWork",
+                "target": "Person"
+            },
+            {
+                "description": "links a book to its author",
+                "source": "Book",
+                "target": "Person"
+            }
+        ],
+        "TYPE_OF": [
+            {
+                "description": "indicates that an examination is a type of educational assessment",
+                "source": "Examination",
+                "target": "EducationalInstitution"
+            },
+            {
+                "description": "specifies the type of resource as a site or structure",
+                "source": "Resource",
+                "target": "Site"
+            }
+        ],
+        "ALUMNUS_OF": [
+            {
+                "description": "links a person to an educational institution they attended",
+                "source": "Person",
+                "target": "EducationalInstitution"
+            }
+        ],
+        "PROVIDES_ADVICE_TO": [
+            {
+                "description": "links advisory firms to their clients",
+                "source": "AdvisoryFirm",
+                "target": "Corporation"
+            }
+        ],
+        "CRITICAL_OF": [
+            {
+                "description": "links entities to projects they oppose",
+                "source": "Politician",
+                "target": "Project"
+            }
+        ],
+        "FORMERLY": [
+            {
+                "description": "links buildings to their previous functions",
+                "source": "Building",
+                "target": "School"
+            }
+        ],
+        "COMPETED_IN": [
+            {
+                "description": "links athletes to events they participated in",
+                "source": "Cyclist",
+                "target": "Event"
+            }
+        ],
+        "RULED": [
+            {
+                "description": "links a monarch to the location they ruled",
+                "source": "Monarch",
+                "target": "Location"
+            }
+        ],
+        "BUILT": [
+            {
+                "description": "links a person to a building they constructed",
+                "source": "Person",
+                "target": "Building"
+            }
+        ],
+        "CREATED_BY": [
+            {
+                "description": "links an artwork to its creator",
+                "source": "Artwork",
+                "target": "Artist"
+            },
+            {
+                "description": "indicates who created a particular play or literary work",
+                "source": "Playwright",
+                "target": "Person"
+            },
+            {
+                "description": "links music albums to their musicians",
+                "source": "MusicAlbum",
+                "target": "Musician"
+            }
+        ],
+        "MEASURES": [
+            {
+                "description": "links a mountain to its measurement attributes",
+                "source": "Mountain",
+                "target": "Measurement"
+            }
+        ],
+        "PLAYED_FOR": [
+            {
+                "description": "links a player to the team they played for",
+                "source": "Person",
+                "target": "Team"
+            }
+        ],
+        "WON_BY": [
+            {
+                "description": "links a tournament to the person who won it",
+                "source": "Tournament",
+                "target": "Person"
+            },
+            {
+                "description": "indicates a championship or title won by a team",
+                "source": "Season",
+                "target": "SportsTeam"
+            }
+        ],
+        "ESTABLISHED_ON": [
+            {
+                "description": "associates an institution or entity with the date it was established",
+                "source": "EducationalInstitution",
+                "target": "Date"
+            }
+        ],
+        "OFFERS": [
+            {
+                "description": "indicates that an institution offers certain programs or degrees",
+                "source": "EducationalInstitution",
+                "target": "DegreeProgram"
+            },
+            {
+                "description": "links a banking service to the specific features it offers",
+                "source": "BankingService",
+                "target": "BankingService"
+            }
+        ],
+        "GRADUATED_FROM": [
+            {
+                "description": "indicates the university from which a person graduated",
+                "source": "Person",
+                "target": "University"
+            }
+        ],
+        "ISSUED_IN": [
+            {
+                "description": "indicates where a license is issued",
+                "source": "License",
+                "target": "Country"
+            }
+        ],
+        "PLAYS_SPORT": [
+            {
+                "description": "indicates the sport a person plays",
+                "source": "Person",
+                "target": "Sport"
+            }
+        ],
+        "PERFORMS_IN": [
+            {
+                "description": "indicates that a singer performs in a music event",
+                "source": "Singer",
+                "target": "MusicEvent"
+            },
+            {
+                "description": "links an actor to a theatre production they perform in",
+                "source": "Actor",
+                "target": "Theatre"
+            }
+        ],
+        "FEATURED_ON": [
+            {
+                "description": "links a song to the album it is featured on",
+                "source": "Song",
+                "target": "Album"
+            }
+        ],
+        "APPEARS_IN_CHART": [
+            {
+                "description": "links a song to the music chart it appears in",
+                "source": "Song",
+                "target": "MusicChart"
+            }
+        ],
+        "FORMED_IN": [
+            {
+                "description": "links a music group to the year it was formed",
+                "source": "MusicGroup",
+                "target": "Event"
+            }
+        ],
+        "RELEASED": [
+            {
+                "description": "links an album to the year it was released",
+                "source": "Album",
+                "target": "Event"
+            }
+        ],
+        "LOCATED_AT": [
+            {
+                "description": "links a sports team to the facility where they play",
+                "source": "SportsTeam",
+                "target": "SportsFacility"
+            },
+            {
+                "description": "indicates the location of a recreation area",
+                "source": "RecreationArea",
+                "target": "Location"
+            }
+        ],
+        "CONNECTS": [
+            {
+                "description": "links a road to the locations it connects",
+                "source": "Road",
+                "target": "Location"
+            }
+        ],
+        "PUBLISHED_BY": [
+            {
+                "description": "links a journal to its publishing organization",
+                "source": "Journal",
+                "target": "Organization"
+            }
+        ],
+        "OWNED_BY": [
+            {
+                "description": "links a football club to its owner",
+                "source": "FootballClub",
+                "target": "InvestmentGroup"
+            }
+        ],
+        "GOVERNED_BY": [
+            {
+                "description": "links a city to its governing body",
+                "source": "City",
+                "target": "MunicipalCorporation"
+            },
+            {
+                "description": "indicates that an activity or process is governed by specific legislation",
+                "source": "EducationalMethod",
+                "target": "Legislation"
+            }
+        ],
+        "STUDIES": [
+            {
+                "description": "links a person to the scientific concepts they study or develop",
+                "source": "Person",
+                "target": "ScientificConcept"
+            }
+        ],
+        "EMPLOYS": [
+            {
+                "description": "indicates that an institute employs researchers",
+                "source": "ResearchInstitute",
+                "target": "Researcher"
+            }
+        ],
+        "NEAR": [
+            {
+                "description": "indicates proximity of a recreation area to a river",
+                "source": "RecreationArea",
+                "target": "River"
+            }
+        ],
+        "COVERS": [
+            {
+                "description": "indicates a camera operator covers events for a news channel",
+                "source": "CameraOperator",
+                "target": "NewsChannel"
+            }
+        ],
+        "DEDICATED_TO": [
+            {
+                "description": "indicates that a religious site is dedicated to a deity",
+                "source": "ReligiousSite",
+                "target": "Deity"
+            }
+        ],
+        "IS_PARENT_OF": [
+            {
+                "description": "links a parent to their children",
+                "source": "Person",
+                "target": "Person"
+            }
+        ],
+        "OCCURS_DURING": [
+            {
+                "description": "links an event to the time period it occurs",
+                "source": "Event",
+                "target": "Date"
+            }
+        ],
+        "HAS_FEATURE": [
+            {
+                "description": "links an archaeological site to its features or significant aspects",
+                "source": "ArchaeologicalSite",
+                "target": "HistoricalPeriod"
+            }
+        ],
+        "PART_OF_NETWORK": [
+            {
+                "description": "links a school to the network it is part of",
+                "source": "School",
+                "target": "SchoolNetwork"
+            }
+        ],
+        "COMPOSED_BY": [
+            {
+                "description": "links a musical score to its composer",
+                "source": "MusicalScore",
+                "target": "Composer"
+            }
+        ],
+        "SCORE_FOR": [
+            {
+                "description": "links a musical score to the film it was composed for",
+                "source": "MusicalScore",
+                "target": "Film"
+            }
+        ],
+        "BROADCASTS_FORMAT": [
+            {
+                "description": "links a radio station to the music format it broadcasts",
+                "source": "RadioStation",
+                "target": "MusicGenre"
+            }
+        ],
+        "BUILT_BY": [
+            {
+                "description": "links a construction project to the company that built it",
+                "source": "Bridge",
+                "target": "ConstructionCompany"
+            }
+        ],
+        "AWARDED_BY": [
+            {
+                "description": "links an award to the organization that grants it",
+                "source": "Award",
+                "target": "Organization"
+            }
+        ],
+        "REMEMBERS": [
+            {
+                "description": "links an award or event to a person in honor of whom it is named or held",
+                "source": "Award",
+                "target": "Person"
+            }
+        ],
+        "AWARDED_FOR": [
+            {
+                "description": "links an award to the language in which the recognized works are written",
+                "source": "Award",
+                "target": "Language"
+            }
+        ],
+        "ESTABLISHED_IN": [
+            {
+                "description": "links an organization or event to the year or period it was established",
+                "source": "GolfClub",
+                "target": "Date"
+            }
+        ],
+        "RECORDED_BY": [
+            {
+                "description": "links a song to the artist who recorded it",
+                "source": "Song",
+                "target": "Person"
+            }
+        ],
+        "CAPTAINS": [
+            {
+                "description": "links a captain to the team they lead",
+                "source": "Person",
+                "target": "Team"
+            }
+        ],
+        "OCCURRED_ON": [
+            {
+                "description": "links an event to the date it occurred",
+                "source": "Event",
+                "target": "Date"
+            }
+        ],
+        "COMPOSED_OF": [
+            {
+                "description": "links a chemical to its components or structure",
+                "source": "Chemical",
+                "target": "Chemical"
+            }
+        ],
+        "LISTED_ON": [
+            {
+                "description": "links a structure to a register or list where it is recorded",
+                "source": "Building",
+                "target": "Event"
+            },
+            {
+                "description": "indicates when a historic district was listed on a register",
+                "source": "HistoricDistrict",
+                "target": "Date"
+            }
+        ],
+        "BROADCAST_ON": [
+            {
+                "description": "links a television show to the network it airs on",
+                "source": "TelevisionShow",
+                "target": "Network"
+            }
+        ],
+        "EQUIVALENT_TO": [
+            {
+                "description": "links measurement units that are equivalent",
+                "source": "MeasurementUnit",
+                "target": "MeasurementUnit"
+            }
+        ],
+        "SPECIALIZES_IN": [
+            {
+                "description": "links a person to their field of specialization",
+                "source": "Person",
+                "target": "ArtPeriod"
+            }
+        ],
+        "CURATES": [
+            {
+                "description": "links a person to an exhibition they curated",
+                "source": "Person",
+                "target": "Exhibition"
+            }
+        ],
+        "TEACHES": [
+            {
+                "description": "links a person to a course they teach",
+                "source": "Person",
+                "target": "Course"
+            }
+        ],
+        "HAS_PLATFORM": [
+            {
+                "description": "links a railway station to its platforms",
+                "source": "RailwayStation",
+                "target": "Platform"
+            }
+        ],
+        "PORTRAYS": [
+            {
+                "description": "links an actor to a role they have played",
+                "source": "Actor",
+                "target": "Film"
+            }
+        ],
+        "FLOWS_THROUGH": [
+            {
+                "description": "links a river to the locations it flows through",
+                "source": "River",
+                "target": "Location"
+            }
+        ],
+        "ESTABLISHED_BY": [
+            {
+                "description": "links a healthcare system to the act that established it",
+                "source": "HealthcareSystem",
+                "target": "Act"
+            },
+            {
+                "description": "indicates the establishment of a body or entity by another entity",
+                "source": "GovernmentBody",
+                "target": "GovernmentBody"
+            }
+        ],
+        "PROVIDES_SERVICE": [
+            {
+                "description": "links a health service to the location it serves",
+                "source": "HealthService",
+                "target": "Location"
+            }
+        ],
+        "IN_LANGUAGE": [
+            {
+                "description": "links a film to the language it is in",
+                "source": "Film",
+                "target": "Language"
+            }
+        ],
+        "HAS_WEBSITE": [
+            {
+                "description": "links an event to its official website",
+                "source": "Event",
+                "target": "Website"
+            }
+        ],
+        "IN_GENRE": [
+            {
+                "description": "links a song to the music genre it belongs to",
+                "source": "Song",
+                "target": "MusicGenre"
+            }
+        ],
+        "EMPLOYED_BY": [
+            {
+                "description": "indicates the employment relationship between a person and an institution",
+                "source": "Sociologist",
+                "target": "AcademicInstitution"
+            },
+            {
+                "description": "links a music executive to the company they work for",
+                "source": "MusicExecutive",
+                "target": "Company"
+            }
+        ],
+        "OCCURRED_IN": [
+            {
+                "description": "indicates the location of an event such as an earthquake",
+                "source": "Earthquake",
+                "target": "Location"
+            },
+            {
+                "description": "links events to their location",
+                "source": "Event",
+                "target": "Location"
+            }
+        ],
+        "HAPPENED_ON": [
+            {
+                "description": "indicates the date an event occurred",
+                "source": "Election",
+                "target": "Date"
+            }
+        ],
+        "SERVES": [
+            {
+                "description": "links an airport to the location it serves",
+                "source": "Airport",
+                "target": "Village"
+            },
+            {
+                "description": "indicates a service provided by a transport hub",
+                "source": "TransportHub",
+                "target": "TransportService"
+            }
+        ],
+        "PLAYS_AS": [
+            {
+                "description": "links a sports player to their playing position",
+                "source": "Person",
+                "target": "SportsPosition"
+            }
+        ],
+        "CONTRIBUTED_TO": [
+            {
+                "description": "links a person to their contributions in a field or project",
+                "source": "Scientist",
+                "target": "BiochemicalMethod"
+            }
+        ],
+        "RECEIVED": [
+            {
+                "description": "links a person to an award they received",
+                "source": "Person",
+                "target": "Award"
+            }
+        ],
+        "IS_ALSO": [
+            {
+                "description": "links a person to another role or identity they hold",
+                "source": "Footballer",
+                "target": "EsportsPlayer"
+            }
+        ],
+        "BUILT_ON": [
+            {
+                "description": "links a dam to the river it is built on",
+                "source": "Dam",
+                "target": "River"
+            },
+            {
+                "description": "indicates that a structure is built on a land claim",
+                "source": "House",
+                "target": "LandClaim"
+            }
+        ],
+        "SERVES_PURPOSE": [
+            {
+                "description": "links a dam to its primary purpose",
+                "source": "Dam",
+                "target": "Purpose"
+            }
+        ],
+        "OPERATES": [
+            {
+                "description": "links a power station to the dam it is associated with",
+                "source": "PowerStation",
+                "target": "Dam"
+            }
+        ],
+        "CREATED_ARTWORK": [
+            {
+                "description": "links an artist to the artwork they created",
+                "source": "Artist",
+                "target": "Artwork"
+            }
+        ],
+        "AIRED_ON": [
+            {
+                "description": "links a television series to the network it aired on",
+                "source": "TelevisionSeries",
+                "target": "BroadcastNetwork"
+            }
+        ],
+        "EDITOR_OF": [
+            {
+                "description": "links a person to the journal they edit",
+                "source": "Person",
+                "target": "AcademicJournal"
+            }
+        ],
+        "FOUNDED_IN": [
+            {
+                "description": "links an organization to the date it was founded",
+                "source": "Organization",
+                "target": "Date"
+            }
+        ],
+        "DRAINS_INTO": [
+            {
+                "description": "links a lake to the river system it drains into",
+                "source": "Lake",
+                "target": "Location"
+            }
+        ],
+        "CONTRIBUTES_TO": [
+            {
+                "description": "indicates a person's contribution to a project or artwork",
+                "source": "Person",
+                "target": "Project"
+            }
+        ],
+        "HOLDS_RECORD": [
+            {
+                "description": "links an athlete to a record they hold",
+                "source": "Athlete",
+                "target": "Record"
+            }
+        ],
+        "OWNS": [
+            {
+                "description": "links an organization to the media outlets it owns",
+                "source": "Company",
+                "target": "Media"
+            },
+            {
+                "description": "specifies ownership of a restaurant by a chef",
+                "source": "Chef",
+                "target": "Restaurant"
+            }
+        ],
+        "HOUSED_IN": [
+            {
+                "description": "links artwork to a museum where it is displayed",
+                "source": "Artwork",
+                "target": "Museum"
+            }
+        ],
+        "NARRATED_BY": [
+            {
+                "description": "links a film to its narrator",
+                "source": "DocumentaryFilm",
+                "target": "Person"
+            }
+        ],
+        "CONTESTED_BY": [
+            {
+                "description": "links a competition to its participants",
+                "source": "Competition",
+                "target": "Team"
+            }
+        ],
+        "BROADCASTS": [
+            {
+                "description": "links a radio station to its programs",
+                "source": "RadioStation",
+                "target": "Publication"
+            }
+        ],
+        "SERVED_BY": [
+            {
+                "description": "links a location to its transportation service",
+                "source": "Location",
+                "target": "RailwayStation"
+            }
+        ],
+        "PUBLISHES": [
+            {
+                "description": "links an organization to its publications",
+                "source": "TradeUnion",
+                "target": "Publication"
+            }
+        ],
+        "COACHED_BY": [
+            {
+                "description": "links a sports team to their coach",
+                "source": "FootballClub",
+                "target": "Person"
+            }
+        ],
+        "HOLDS": [
+            {
+                "description": "links a person to their certifications",
+                "source": "Person",
+                "target": "CoachingCertification"
+            }
+        ],
+        "TREATS": [
+            {
+                "description": "links a treatment to the medical condition it addresses",
+                "source": "Treatment",
+                "target": "MedicalCondition"
+            }
+        ],
+        "FEATURES_GENRE": [
+            {
+                "description": "links a music album to its music genre",
+                "source": "MusicAlbum",
+                "target": "MusicGenre"
+            }
+        ],
+        "RANKED_IN": [
+            {
+                "description": "links a song to the chart where it is ranked",
+                "source": "Song",
+                "target": "Chart"
+            }
+        ],
+        "EDUCATES_IN": [
+            {
+                "description": "links an educational institution to the field or subject it educates in",
+                "source": "EducationalInstitution",
+                "target": "MilitaryUnit"
+            }
+        ],
+        "PROMOTES": [
+            {
+                "description": "links a political figure to the political or military unit they are associated with",
+                "source": "PoliticalFigure",
+                "target": "MilitaryUnit"
+            },
+            {
+                "description": "links a cultural organization to the culture or expression it promotes",
+                "source": "CulturalOrganization",
+                "target": "Location"
+            }
+        ],
+        "PRODUCED_IN": [
+            {
+                "description": "links a film or documentary to the country where it was produced",
+                "source": "Film",
+                "target": "Country"
+            }
+        ],
+        "IS_SITE_OF": [
+            {
+                "description": "links an archaeological site to its specific location",
+                "source": "ArchaeologicalSite",
+                "target": "Location"
+            }
+        ],
+        "IS_FROM": [
+            {
+                "description": "links a person to their place of origin",
+                "source": "Person",
+                "target": "Location"
+            }
+        ],
+        "IS_AUTHOR_OF": [
+            {
+                "description": "links a writer to their literary works",
+                "source": "Writer",
+                "target": "Documentary"
+            }
+        ],
+        "PLAYS_POSITION": [
+            {
+                "description": "links a basketball player to the positions they play",
+                "source": "Person",
+                "target": "BasketballPosition"
+            }
+        ],
+        "APPEARS_IN": [
+            {
+                "description": "links a character to the film or literary work they appear in",
+                "source": "LiteraryCharacter",
+                "target": "Film"
+            }
+        ],
+        "PUBLISHED_AS": [
+            {
+                "description": "links a magazine to its publication format",
+                "source": "Magazine",
+                "target": "Publication"
+            }
+        ],
+        "ORIGIN_OF": [
+            {
+                "description": "links a surname to its origin or meaning",
+                "source": "Surname",
+                "target": "SurnameOrigin"
+            }
+        ],
+        "PRACTICES": [
+            {
+                "description": "links a person to the artistic discipline they practice",
+                "source": "Person",
+                "target": "ArtisticDiscipline"
+            }
+        ],
+        "HOLDS_TITLE": [
+            {
+                "description": "links a person to a religious title they hold",
+                "source": "Person",
+                "target": "ReligiousTitle"
+            }
+        ],
+        "BELONGS_TO_GENRE": [
+            {
+                "description": "links a film to its genre",
+                "source": "Film",
+                "target": "FilmGenre"
+            }
+        ],
+        "WRITTEN_IN": [
+            {
+                "description": "links a document to the language it is written in",
+                "source": "Document",
+                "target": "Language"
+            }
+        ],
+        "RECOGNIZED_AS": [
+            {
+                "description": "links a person to their recognition of historical significance",
+                "source": "Person",
+                "target": "HistoricalSignificance"
+            }
+        ],
+        "USED_IN": [
+            {
+                "description": "indicates that a method is used within a specific field or context",
+                "source": "EducationalMethod",
+                "target": "Institution"
+            },
+            {
+                "description": "links a programming tool to the operating systems it runs on",
+                "source": "ProgrammingTool",
+                "target": "Location"
+            },
+            {
+                "description": "links materials to their usage context",
+                "source": "Material",
+                "target": "Event"
+            }
+        ],
+        "ENCODED_BY": [
+            {
+                "description": "indicates that a protein is encoded by a specific gene",
+                "source": "Protein",
+                "target": "Gene"
+            }
+        ],
+        "COMMISSIONED_BY": [
+            {
+                "description": "links a composition to the orchestra that commissioned it",
+                "source": "Composition",
+                "target": "Orchestra"
+            }
+        ],
+        "CELEBRATES": [
+            {
+                "description": "links an event to the anniversary it celebrates",
+                "source": "Event",
+                "target": "Anniversary"
+            }
+        ],
+        "EDUCATED_AT": [
+            {
+                "description": "links a person to the educational institution they attended",
+                "source": "Person",
+                "target": "EducationalInstitution"
+            }
+        ],
+        "PLAYED_AT": [
+            {
+                "description": "links a tournament to the court it was played on",
+                "source": "Tournament",
+                "target": "Court"
+            }
+        ],
+        "SPOKEN_IN": [
+            {
+                "description": "indicates the language used in a film",
+                "source": "Film",
+                "target": "Language"
+            }
+        ],
+        "STARRED_IN": [
+            {
+                "description": "indicates actors participating in a film",
+                "source": "Person",
+                "target": "Film"
+            }
+        ],
+        "SET_IN": [
+            {
+                "description": "indicates the location setting of a film",
+                "source": "Film",
+                "target": "Location"
+            }
+        ],
+        "ABOUT": [
+            {
+                "description": "indicates the theme or subject of a film",
+                "source": "Film",
+                "target": "MedicalConcept"
+            }
+        ],
+        "FEATURES_STYLE": [
+            {
+                "description": "indicates the architectural style of a building",
+                "source": "Building",
+                "target": "ArchitecturalStyle"
+            }
+        ],
+        "CONSISTS_OF": [
+            {
+                "description": "specifies the chemical composition of a mineral",
+                "source": "Mineral",
+                "target": "ChemicalFormula"
+            },
+            {
+                "description": "links a canton to its communes",
+                "source": "Canton",
+                "target": "Commune"
+            },
+            {
+                "description": "indicates that a railway station consists of platforms",
+                "source": "RailwayStation",
+                "target": "Platform"
+            }
+        ],
+        "MANUFACTURED_BY": [
+            {
+                "description": "links a computer to the company that manufactured it",
+                "source": "Computer",
+                "target": "Organization"
+            }
+        ],
+        "PERFORMED_SONG": [
+            {
+                "description": "links a singer to a song they performed",
+                "source": "Singer",
+                "target": "Song"
+            }
+        ],
+        "CHILD_OF": [
+            {
+                "description": "links a person to their parents",
+                "source": "Person",
+                "target": "Parent"
+            }
+        ],
+        "AIMS_TO": [
+            {
+                "description": "links an event or organization to its purpose",
+                "source": "Event",
+                "target": "Purpose"
+            }
+        ],
+        "SUPPORTS": [
+            {
+                "description": "links an organization to the entities it supports",
+                "source": "Organization",
+                "target": "Purpose"
+            }
+        ],
+        "WORKS_WITH": [
+            {
+                "description": "links a person to other professionals they collaborate with",
+                "source": "Songwriter",
+                "target": "Musician"
+            }
+        ],
+        "APPEARED_IN": [
+            {
+                "description": "links a person to a show or video they appeared in",
+                "source": "Person",
+                "target": "TelevisionShow"
+            }
+        ],
+        "CAUSED_BY": [
+            {
+                "description": "links an accident to its cause",
+                "source": "Accident",
+                "target": "Technology"
+            }
+        ],
+        "ADDRESSED_TO": [
+            {
+                "description": "links a document to its recipient",
+                "source": "Document",
+                "target": "Government"
+            }
+        ],
+        "CRITICIZES": [
+            {
+                "description": "links a document to the entity it criticizes",
+                "source": "Document",
+                "target": "Country"
+            }
+        ],
+        "NEGOTIATED_BY": [
+            {
+                "description": "links a treaty to the person who negotiated it",
+                "source": "Treaty",
+                "target": "Person"
+            }
+        ],
+        "BETWEEN": [
+            {
+                "description": "links a treaty to the entities it was between",
+                "source": "Treaty",
+                "target": "Empire"
+            }
+        ],
+        "REVERED_BY": [
+            {
+                "description": "links a religious figure to the followers or period that revered them",
+                "source": "ReligiousFigure",
+                "target": "HistoricalPeriod"
+            }
+        ],
+        "IS_MEMBER_OF": [
+            {
+                "description": "links a person to a sports team they are a part of",
+                "source": "Athlete",
+                "target": "SportsTeam"
+            }
+        ],
+        "LIVED_IN": [
+            {
+                "description": "links a person to a location where they lived",
+                "source": "Person",
+                "target": "Location"
+            }
+        ],
+        "WORKED_AS": [
+            {
+                "description": "links a person to their specific job role",
+                "source": "FilmEditor",
+                "target": "Occupation"
+            }
+        ],
+        "DISCOVERED_IN": [
+            {
+                "description": "links a species to the location where it was first discovered",
+                "source": "Moth",
+                "target": "Location"
+            }
+        ],
+        "ATTENDED": [
+            {
+                "description": "links a person to a high school they attended",
+                "source": "Person",
+                "target": "HighSchool"
+            },
+            {
+                "description": "indicates that a person attended an educational institution",
+                "source": "Person",
+                "target": "EducationalInstitution"
+            }
+        ],
+        "FEATURES_WORK_BY": [
+            {
+                "description": "links a book to the photographers whose work it features",
+                "source": "Book",
+                "target": "Photographer"
+            }
+        ],
+        "CHOREOGRAPHED_BY": [
+            {
+                "description": "links a dance to its choreographer",
+                "source": "Dance",
+                "target": "Choreographer"
+            }
+        ],
+        "IS_MADE_OF": [
+            {
+                "description": "links a product or object to the material it is made from",
+                "source": "Statue",
+                "target": "Material"
+            }
+        ],
+        "RESEARCHES": [
+            {
+                "description": "links a person to their field of study or research",
+                "source": "Person",
+                "target": "Field"
+            }
+        ],
+        "KNOWN_AS": [
+            {
+                "description": "links an entity to its common or alternative names",
+                "source": "Plant",
+                "target": "Location"
+            }
+        ],
+        "KNOWN_BY": [
+            {
+                "description": "links a plant to the indigenous names known by specific groups",
+                "source": "Plant",
+                "target": "IndigenousGroup"
+            }
+        ],
+        "DEVELOPED_FOR": [
+            {
+                "description": "links a programming language or tool to the systems it is designed for",
+                "source": "ProgrammingLanguage",
+                "target": "ProgrammingTool"
+            }
+        ],
+        "HOSTED_IN": [
+            {
+                "description": "links an event to the location where it took place",
+                "source": "SportsEvent",
+                "target": "Location"
+            }
+        ],
+        "DESCRIBES": [
+            {
+                "description": "links a text to the subject it discusses",
+                "source": "Text",
+                "target": "Deity"
+            }
+        ],
+        "HELD_AS": [
+            {
+                "description": "links a sports tournament to its various names over different periods",
+                "source": "SportsTournament",
+                "target": "Event"
+            }
+        ],
+        "EXEMPLIFIES_STYLE": [
+            {
+                "description": "links a building to the architectural style it represents",
+                "source": "HistoricBuilding",
+                "target": "ArchitectureStyle"
+            }
+        ],
+        "HOME_TO": [
+            {
+                "description": "links a building to the influential figures associated with it",
+                "source": "HistoricBuilding",
+                "target": "Person"
+            }
+        ],
+        "PUBLISHED_IN": [
+            {
+                "description": "links a book to the date it was published",
+                "source": "Book",
+                "target": "Date"
+            }
+        ],
+        "IDENTIFIES_AS": [
+            {
+                "description": "links a person to a cultural or ethnic identity",
+                "source": "Person",
+                "target": "CulturalIdentity"
+            }
+        ],
+        "CREATES_IN": [
+            {
+                "description": "links an artist to the genre they work in",
+                "source": "Person",
+                "target": "ArtisticGenre"
+            }
+        ],
+        "SIGNED_CONTRACT_WITH": [
+            {
+                "description": "links a person to an organization they have a formal agreement with",
+                "source": "RugbyPlayer",
+                "target": "RugbyTeam"
+            }
+        ],
+        "NAMED_AFTER": [
+            {
+                "description": "links an entity that is named after a person",
+                "source": "Insect",
+                "target": "Person"
+            }
+        ],
+        "PARASITIZES": [
+            {
+                "description": "links a parasite to its host",
+                "source": "Insect",
+                "target": "Animal"
+            }
+        ],
+        "AIRS_ON": [
+            {
+                "description": "links a television series to the network it airs on",
+                "source": "TelevisionSeries",
+                "target": "Organization"
+            }
+        ],
+        "HOME_GROUND_OF": [
+            {
+                "description": "links a stadium to the team it is home ground for",
+                "source": "Stadium",
+                "target": "Team"
+            }
+        ],
+        "EXPELLED_BY": [
+            {
+                "description": "links a person to the monarch who ordered their expulsion",
+                "source": "Person",
+                "target": "Monarch"
+            }
+        ],
+        "HEADQUARTERED_IN": [
+            {
+                "description": "links a company to its headquarters location",
+                "source": "Company",
+                "target": "Country"
+            }
+        ],
+        "RECIPIENT_OF": [
+            {
+                "description": "links a person to an award they have received",
+                "source": "Person",
+                "target": "Award"
+            }
+        ],
+        "ACQUIRED_BY": [
+            {
+                "description": "links a company that has been acquired by another company",
+                "source": "Bank",
+                "target": "Company"
+            }
+        ],
+        "SERVED_IN": [
+            {
+                "description": "indicates service of ships in a war",
+                "source": "Ship",
+                "target": "War"
+            }
+        ],
+        "BINDS_TO": [
+            {
+                "description": "indicates binding of proteins to dna or other proteins",
+                "source": "Protein",
+                "target": "TranscriptionFactor"
+            }
+        ],
+        "RECORDED_IN": [
+            {
+                "description": "indicates the location where an album was recorded",
+                "source": "Album",
+                "target": "RecordingStudio"
+            }
+        ],
+        "RELEASED_AS": [
+            {
+                "description": "indicates the different editions in which an album was released",
+                "source": "Album",
+                "target": "Edition"
+            }
+        ],
+        "FOUGHT_IN": [
+            {
+                "description": "indicates participation of a soldier in a war",
+                "source": "Soldier",
+                "target": "War"
+            }
+        ],
+        "HAS_ETHNICITY": [
+            {
+                "description": "links a person to their ethnic background",
+                "source": "Person",
+                "target": "Ethnicity"
+            }
+        ],
+        "HAS_GOVERNMENT_TYPE": [
+            {
+                "description": "links a religious organization to its type of government",
+                "source": "ReligiousOrganization",
+                "target": "Government"
+            }
+        ],
+        "HAS_MEMBER": [
+            {
+                "description": "links a religious organization to its members",
+                "source": "ReligiousOrganization",
+                "target": "Person"
+            },
+            {
+                "description": "indicates membership of a person in a council or team",
+                "source": "Person",
+                "target": "LocalGovernmentArea"
+            }
+        ],
+        "HAS_FACILITY": [
+            {
+                "description": "links a town to a temple located within it",
+                "source": "Town",
+                "target": "Temple"
+            }
+        ],
+        "PERFORMS_AS": [
+            {
+                "description": "links a musician to the music genre they perform",
+                "source": "Musician",
+                "target": "Composer"
+            }
+        ],
+        "SERVES_ON": [
+            {
+                "description": "links a person to the board or council they serve on",
+                "source": "Person",
+                "target": "Board"
+            }
+        ],
+        "DEDICATED_BY": [
+            {
+                "description": "links a person to an object or artwork they dedicated",
+                "source": "Person",
+                "target": "Artwork"
+            }
+        ],
+        "LOCATED_ON": [
+            {
+                "description": "indicates that a war memorial is located on an island",
+                "source": "WarMemorial",
+                "target": "Island"
+            }
+        ],
+        "PREMIERED_AT": [
+            {
+                "description": "links a film to the event where it was first shown",
+                "source": "Film",
+                "target": "Event"
+            }
+        ],
+        "HAS_POPULATION": [
+            {
+                "description": "links a location to its population count",
+                "source": "Village",
+                "target": "Population"
+            }
+        ],
+        "PRESIDENT_OF": [
+            {
+                "description": "links a person to the organization they lead",
+                "source": "Writer",
+                "target": "Organization"
+            }
+        ],
+        "HAS_WINGSPAN": [
+            {
+                "description": "links a moth to its wingspan",
+                "source": "Moth",
+                "target": "Wingspan"
+            }
+        ],
+        "INVOLVES": [
+            {
+                "description": "indicates that a chemical synthesis involves specific steps",
+                "source": "ChemicalCompound",
+                "target": "ChemicalSynthesisStep"
+            }
+        ],
+        "STATUS": [
+            {
+                "description": "links a publication to its status (active or defunct)",
+                "source": "Magazine",
+                "target": "PublicationStatus"
+            }
+        ],
+        "IS_SAINT_OF": [
+            {
+                "description": "links a saint to the location they are associated with",
+                "source": "Saint",
+                "target": "Location"
+            }
+        ],
+        "HAS_COMPONENT": [
+            {
+                "description": "links a mineral to its chemical formula",
+                "source": "Mineral",
+                "target": "ChemicalFormula"
+            }
+        ],
+        "EXHIBITS": [
+            {
+                "description": "links a behavior to its manifestations",
+                "source": "Behavior",
+                "target": "Person"
+            }
+        ],
+        "PROTECTS": [
+            {
+                "description": "links a nature reserve to the geographical or ecological entities it protects",
+                "source": "NatureReserve",
+                "target": "Island"
+            }
+        ],
+        "APPOINTED_BY": [
+            {
+                "description": "indicates a person appointed by a higher authority",
+                "source": "Person",
+                "target": "Person"
+            }
+        ],
+        "MEETS_AT": [
+            {
+                "description": "indicates the meeting place of a council or group",
+                "source": "LocalGovernmentArea",
+                "target": "CouncilChamber"
+            }
+        ],
+        "WORSHIPPED_BY": [
+            {
+                "description": "indicates a mythological figure worshipped by a group",
+                "source": "MythologicalFigure",
+                "target": "Person"
+            }
+        ],
+        "INHABITS": [
+            {
+                "description": "indicates an animal inhabiting a location",
+                "source": "Animal",
+                "target": "Location"
+            }
+        ],
+        "INFLUENCED_BY": [
+            {
+                "description": "links a music genre to its influences",
+                "source": "MusicGenre",
+                "target": "Location"
+            }
+        ],
+        "HAS_COLOR": [
+            {
+                "description": "links a moth to its color",
+                "source": "Moth",
+                "target": "Color"
+            }
+        ],
+        "PLAYED_BY": [
+            {
+                "description": "links a fictional character to the actor who plays them",
+                "source": "FictionalCharacter",
+                "target": "Actor"
+            }
+        ],
+        "FROM_ALBUM": [
+            {
+                "description": "links a song to the album it belongs to",
+                "source": "Song",
+                "target": "MusicAlbum"
+            }
+        ],
+        "UNDER_JURISDICTION": [
+            {
+                "description": "links an entity to the administrative division it is governed by",
+                "source": "RailwayStation",
+                "target": "RailwayDivision"
+            }
+        ],
+        "PLAYED_IN": [
+            {
+                "description": "links teams to the games they participate in",
+                "source": "SportsTeam",
+                "target": "BasketballGame"
+            }
+        ],
+        "PART_OF_TOURNAMENT": [
+            {
+                "description": "links games to the tournaments they are part of",
+                "source": "BasketballGame",
+                "target": "BasketballTournament"
+            }
+        ],
+        "CHARACTERIZED_BY": [
+            {
+                "description": "links a location to its climate type",
+                "source": "Island",
+                "target": "Climate"
+            }
+        ]
+    }
+}

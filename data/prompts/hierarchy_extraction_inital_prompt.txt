@@ -1,0 +1,73 @@
+**Prompt: Hierarchy Detector for Ontology Entities**
+
+**Objective:**
+You are given a list of entities from an ontology. Your task is to create a hierarchy and assign the entitites to them. This means, that a parent entity (e.g. Person) can have child entities (e.g. Author, Actor, ...). You should create a hierarchical structure that organizes all entities into broader or narrower categories. For the leftover entities, which could not be assigned, given them back seperately (under the key "Other"). Do not repeat any of the entities. Structure the output in the given JSON format. 
+
+**Input:**
+You will receive a list of strings, which are the entities.
+
+**Output:**
+ 
+```json
+{
+  "Entity1": {
+    "childrenEntities": {
+      "SubEntity1": {},
+      "SubEntity2": {}
+    }
+  },
+  "Entity2": {
+    "childrenEntities": {...}
+  },
+  "Other": {
+    "Entity3": {}
+  }
+...
+}
+```
+
+**Example Input:**
+["Person", "Book", "BalletDancer", "Company", "Dancer", "Festival",  "Document", "Event", "Painter"]
+
+**Example Output:**
+```json
+{
+        "Person": {
+            "childrenEntities": {
+                "Dancer": {
+                    "childrenEntities": {
+                        "BalletDancer": {}
+                    },
+		"Painter": {}
+                }
+            }
+        },
+
+        "Event": {
+            "childrenEntities": {
+                "Festival": {
+                }
+            }
+        },
+        "Document": {
+            "childrenEntities": {
+                "Book": {
+                }
+            }
+        }
+        "Other": {
+            "Company": {}
+            
+        }
+    }
+```
+
+**Instructions:**
+1. **Understand the given content:** Carefully read and analyze the provided list of entities.
+2. **Identify the hierarchy:** Determine the hierarchical relationships between the entities, identifying which entities are parent entities and which are child entities.
+3. **Check entities:** Make sure all entities from the input list can be found in the ouput hierarchy. However, make sure there are no duplicate entries in the output. 
+4. **Format the output:** Structure the entities in the specified JSON format, ensuring clarity and consistency in the hierarchy.
+
+---
+
+Please provide the extracted content in the specified JSON structure.

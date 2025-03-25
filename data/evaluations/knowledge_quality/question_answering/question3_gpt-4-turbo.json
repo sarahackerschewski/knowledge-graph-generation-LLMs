@@ -1,0 +1,52 @@
+[
+  {
+    "d": {
+      "identity": 6,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "author": "unknown",
+        "language": "Dutch",
+        "id": "8",
+        "title": "The Yser Testament",
+        "publicationDate": "1917-07-11"
+      },
+      "elementId": "4:a65d4e5d-f486-434f-9fe9-b046f6c0a089:6"
+    },
+    "relationship": "AUTHORED",
+    "objectLabels": [
+      "Person"
+    ],
+    "objectProperties": {
+      "id": "9",
+      "name": "King Albert I"
+    }
+  },
+  {
+    "d": {
+      "identity": 6,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "author": "unknown",
+        "language": "Dutch",
+        "id": "8",
+        "title": "The Yser Testament",
+        "publicationDate": "1917-07-11"
+      },
+      "elementId": "4:a65d4e5d-f486-434f-9fe9-b046f6c0a089:6"
+    },
+    "relationship": "OCCURS_IN",
+    "objectLabels": [
+      "Event"
+    ],
+    "objectProperties": {
+      "id": "10",
+      "location": "",
+      "name": "World War I",
+      "date": ""
+    }
+  }
+]

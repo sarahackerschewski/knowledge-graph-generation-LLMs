@@ -1,0 +1,292 @@
+**Objective**
+You are given a list of articles from wikipedia and an ontology in json format. Your task is to analyze the articles and make use of the entities and the relations given in the ontology to create a knowledge graph. It's important that you only consider each article on its own and don't connect knowledge between the articles, i.e. only create relations between nodes from the same article. Use the more specific labels if existing and use the properties of these labels for the entity!
+Identify entities, assign them labels, fill the properties according to label and the ontology, and establish relationships. Try to use the ontology as much as possible. Make sure the types of the startNodes and endNodes in the relations are consistent with relations in the ontology and are only numbers referring to the entity. A relationship must have a startNode and endNode, so do not forget to add them. Also check that the start/endNodes in the relations can be found in the "nodes" determined before. Try avoiding recursive statements, where the startNode and the endNode refer to the same entity. If the endNode can be found in the properties of the startNode but not in the predefined nodes, fill the endNode with the property string, e.g. "occupation":"writer" will result in the triple ("example_entity", HAS_OCCUPATION, "writer")
+
+**Input**
+A list of articles and an ontology in json format
+
+**Output**
+{
+    "nodes": [
+        {
+            "id": "unique_id_1",
+            "labels": ["EntityType1"],
+            "properties": {
+                "name": "Entity1",
+                "description": "Brief description of Entity1",
+                "attribute1": "Value1",
+                "attribute2": "Value2",
+                ...
+            }
+        },
+        ...
+    ],
+    "relationships": [
+        {
+            "type": "RELATIONSHIP_TYPE",
+            "startNode": "unique_id_1",
+            "endNode": "unique_id_2",
+            "properties": {
+                "description": "Description of the relationship",
+                "additional_property": "value"
+            }
+        },
+        ...
+    ]
+}
+
+**Example Input**
+list_of_articles = ["Guillermo del Toro Gómez (born 9 October 1964) is a Mexican filmmaker, author, and artist.", "The 2024 Summer Olympics were an international multi-sport event held from 26 July to 11 August 2024 in Paris, France."]
+ontology_json = {
+        "entities": 
+           {
+  "Person": {
+    "properties": {
+      "name": "string",
+      "birthDate": "date",
+      "birthPlace": "string",
+      "nationality": "string"
+    },
+    "childrenEntities": {
+      "Occupation": {
+        "properties": {
+          "name": "string",
+          "birthDate": "date",
+          "birthPlace": "string",
+          "nationality": "string",
+          "occupation": "string"
+        },
+        "childrenEntities": {
+          "Author": {
+            "properties": {
+              "name": "string",
+              "birthDate": "date",
+              "birthPlace": "string",
+              "nationality": "string",
+              "occupation": "string",
+              "genre": "string",
+              "awards": "[string]",
+              "notableWorks": "[string]"
+            }
+          },
+          "Filmmaker": {
+            "properties": {
+              "name": "string",
+              "birthDate": "date",
+              "birthPlace": "string",
+              "nationality": "string",
+              "occupation": "string",
+              "films": "[string]",
+              "awards": "[string]"
+            }
+          },
+          "Artist": {
+            "properties": {
+              "name": "string",
+              "birthDate": "date",
+              "birthPlace": "string",
+              "nationality": "string",
+              "occupation": "string",
+              "medium": "string",
+              "artworks": "[string]"
+            }
+          }
+        }
+      },
+      "Nationality": {
+        "properties": {
+          "name": "string",
+          "birthDate": "date",
+          "birthPlace": "string",
+          "nationality": "string"
+        }
+      }
+    }
+  },
+  "Event": {
+    "properties": {
+      "name": "string",
+      "date": "date",
+      "location": "string"
+    },
+    "childrenEntities": {
+      "SportEvent": {
+        "properties": {
+          "name": "string",
+          "date": "date",
+          "location": "string",
+          "participants": "[string]",
+          "winner": "string"
+        }
+      }
+    }
+  },
+  "Location": {
+    "properties": {
+      "name": "string",
+      "coordinates": "string",
+      "country": "string"
+    },
+    "childrenEntities": {
+      "City": {
+        "properties": {
+          "name": "string",
+          "coordinates": "string",
+          "country": "string",
+          "population": "number",
+          "area": "number",
+          "mayor": "string"
+        }
+      }
+    }
+  },
+  "Other": {
+    "Date": {
+      "properties": {
+        "year": "integer",
+        "month": "integer",
+        "day": "integer"
+      }
+    }
+  }
+}
+        ,
+        "relationships": [
+            {
+                "type": "HAS_NATIONALITY",
+		"description": "links a person to their nationality",
+                "source": "Person",
+                "target": "Location"
+            },
+{
+                "type": "BORN_ON",
+		"description": "links a person to their date of birth",
+                "source": "Person",
+                "target": "Date"
+            }
+            {
+                "type": "HAS_OCCUPATION",
+		"description": "links a person to their occupation",
+                "source": "Person",
+                "target": "Occupation"
+            },
+{
+                "type": "OCCURS_IN",
+		"description": "Links an event to its specific time range",
+                "source": "Event",
+                "target": "TimePeriod"
+            },
+            {
+                "type": "OCCURS_IN",
+		"description": "Links an event to its location",
+                "source": "Event",
+                "target": "Country"
+            },
+            
+        ]
+    }
+
+**Example Output**
+{
+    "nodes": [
+        {
+            "id": "1",
+            "labels": ["Filmmaker", "Author", "Artist"],
+            "properties": {
+                "name": "Guillermo del Toro Gómez",
+"birthDate": "9.10.1964",
+birthPlace":"",
+"nationality":"Mexican",
+"occupation":"Filmmaker, Author, Artist",
+"genre":"",
+"awards":"",
+"notableWorks":"",
+"creator":"",
+"creationDate":"",
+"medium":"",
+"artworks":"",
+
+            }
+        },
+        {
+            "id": "2",
+            "labels": ["SportEvent"],
+            "properties": {
+                "name": "2024 Summer Olympics",
+"date":"26.7.2024-11.08.2024",
+"location":"Paris, France",
+"participants":"",
+"winners":""
+            }
+        },
+{
+            "id": "3",
+            "labels": [Date"],
+            "properties": {
+                "year":"1964",
+"month":"10",
+"day":"9",
+            }
+        },
+        {
+            "id": "4",
+            "labels": ["Nationality"],
+            "properties": {
+                "name": "Mexican",
+"birthDate":"9.10.1964",
+"birthPlace":"",
+"nationality":"Mexican"
+                
+            }
+        },
+        {
+            "id": "5",
+            "labels": ["City"],
+            "properties": {
+                "name": "Paris",
+"coordinates":"",
+"country":"France",
+"population":"",
+"area":"",
+"mayor":""
+                
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "type": "BORN_ON",
+            "startNode": "1",
+            "endNode": "3",
+            "properties": {
+                "description": "Guillermo del Toro Gómez was born on 9th of October 1964."
+            }
+        },
+        {
+            "type": "HAS_NATIONALITY",
+            "startNode": "1",
+            "endNode": "4",
+            "properties": {
+                "description": "Guillermo del Toro Gómez is Mexican."
+            }
+        },
+        {
+            "type": "OCCURS_IN",
+            "startNode": "2",
+            "endNode": "5",
+            "properties": {
+                "description": "The 2024 Summer Olympics were held in Paris, France."
+            }
+        }
+    ]
+}
+
+**Instructions:**
+1. **Understand the given content:**Inspect and analyse the given input content.
+2. **Identify and categorize entities and relationships:** Extract entities and relationships from the articles based on the provided ontology and assign unique identifiers to each node. Make sure the properties are filled out appropriately to the entity and its labels.
+3. **Structure the output:** Ensure each node includes an id, labels (entity types), and properties (including attributes like name and description). For relationships, specify the typ and add startNode, endNode, and properties.
+4. **Format the output:** Structure the entities in the specified JSON format, ensuring clarity and consistency.
+
+---
+
+Please provide the extracted content in the specified JSON structure.

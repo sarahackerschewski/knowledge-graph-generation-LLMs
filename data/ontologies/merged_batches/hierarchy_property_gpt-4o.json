@@ -1,0 +1,4314 @@
+{
+    "Person": {
+        "properties": {
+            "name": "string",
+            "birthDate": "date",
+            "birthPlace": "string",
+            "nationality": "string"
+        },
+        "childrenEntities": {
+            "Occupation": {
+                "properties": {
+                    "name": "string",
+                    "birthDate": "date",
+                    "birthPlace": "string",
+                    "nationality": "string",
+                    "occupation": "string"
+                },
+                "childrenEntities": {
+                    "Author": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "genre": "string",
+                            "awards": "[string]",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "Judge": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "court": "string",
+                            "yearsOfService": "number"
+                        }
+                    },
+                    "Anthropologist": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "fieldOfStudy": "string",
+                            "researchAreas": "[string]"
+                        }
+                    },
+                    "BasketballPlayer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "team": "string",
+                            "position": "string",
+                            "careerPoints": "number"
+                        }
+                    },
+                    "RugbyPlayer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "team": "string",
+                            "position": "string",
+                            "careerTries": "number"
+                        }
+                    },
+                    "Cricketer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "team": "string",
+                            "battingStyle": "string",
+                            "bowlingStyle": "string"
+                        }
+                    },
+                    "Footballer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "team": "string",
+                            "position": "string",
+                            "goalsScored": "number"
+                        }
+                    },
+                    "MusicProducer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "genres": "[string]",
+                            "albumsProduced": "[string]"
+                        }
+                    },
+                    "Cyclist": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "team": "string",
+                            "majorWins": "[string]"
+                        }
+                    },
+                    "Athlete": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "sport": "string",
+                            "achievements": "[string]"
+                        }
+                    },
+                    "Poet": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "style": "string",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "Writer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "genres": "[string]",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "Playwright": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "plays": "[string]",
+                            "awards": "[string]"
+                        }
+                    },
+                    "Translator": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "languages": "[string]",
+                            "notableTranslations": "[string]"
+                        }
+                    },
+                    "Commander": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "rank": "string",
+                            "militaryBranch": "string"
+                        }
+                    },
+                    "Monk": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "order": "string",
+                            "yearsInOrder": "number"
+                        }
+                    },
+                    "Principal": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "school": "string",
+                            "yearsOfService": "number"
+                        }
+                    },
+                    "Photographer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "style": "string",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "Director": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "films": "[string]",
+                            "awards": "[string]"
+                        }
+                    },
+                    "Historian": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "specialization": "string",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "Geologist": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "fieldOfStudy": "string",
+                            "discoveries": "[string]"
+                        }
+                    },
+                    "Lawyer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "specialization": "string",
+                            "cases": "[string]"
+                        }
+                    },
+                    "Banker": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "bank": "string",
+                            "position": "string"
+                        }
+                    },
+                    "Businessman": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "companies": "[string]",
+                            "netWorth": "number"
+                        }
+                    },
+                    "Politician": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "party": "string",
+                            "positionsHeld": "[string]"
+                        }
+                    },
+                    "Manager": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "company": "string",
+                            "department": "string"
+                        }
+                    },
+                    "Architect": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "style": "string",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "Musician": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "instruments": "[string]",
+                            "albums": "[string]"
+                        }
+                    },
+                    "Singer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "genres": "[string]",
+                            "albums": "[string]"
+                        }
+                    },
+                    "HeadCoach": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "team": "string",
+                            "championshipsWon": "number"
+                        }
+                    },
+                    "Officer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "rank": "string",
+                            "department": "string"
+                        }
+                    },
+                    "Criminal": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "crimes": "[string]",
+                            "sentence": "string"
+                        }
+                    },
+                    "Diplomat": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "countryRepresented": "string",
+                            "positionsHeld": "[string]"
+                        }
+                    },
+                    "FootballPlayer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "team": "string",
+                            "position": "string",
+                            "goalsScored": "number"
+                        }
+                    },
+                    "Naturalist": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "fieldOfStudy": "string",
+                            "discoveries": "[string]"
+                        }
+                    },
+                    "BiblicalFigure": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "notableEvents": "[string]"
+                        }
+                    },
+                    "PublicServant": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "department": "string",
+                            "yearsOfService": "number"
+                        }
+                    },
+                    "Chef": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "restaurant": "string",
+                            "cuisine": "string"
+                        }
+                    },
+                    "Critic": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "field": "string",
+                            "notableReviews": "[string]"
+                        }
+                    },
+                    "Philatelist": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "collections": "[string]"
+                        }
+                    },
+                    "Painter": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "style": "string",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "MusicIndustryExecutive": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "company": "string",
+                            "artistsManaged": "[string]"
+                        }
+                    },
+                    "Actor": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "films": "[string]",
+                            "awards": "[string]"
+                        }
+                    },
+                    "Composer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "genres": "[string]",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "Songwriter": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "genres": "[string]",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "Choreographer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "style": "string",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "SingerSongwriter": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "genres": "[string]",
+                            "albums": "[string]"
+                        }
+                    },
+                    "Producer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "genres": "[string]",
+                            "filmsProduced": "[string]"
+                        }
+                    },
+                    "Designer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "field": "string",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "Indologist": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "fieldOfStudy": "string",
+                            "notableWorks": "[string]"
+                        }
+                    },
+                    "BusinessEducator": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "institution": "string",
+                            "coursesTaught": "[string]"
+                        }
+                    },
+                    "PoliceOfficer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "rank": "string",
+                            "department": "string"
+                        }
+                    },
+                    "Teacher": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "school": "string",
+                            "subjectsTaught": "[string]"
+                        }
+                    },
+                    "Student": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "school": "string",
+                            "major": "string"
+                        }
+                    },
+                    "Coach": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "team": "string",
+                            "sport": "string"
+                        }
+                    },
+                    "Gymnast": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "team": "string",
+                            "events": "[string]"
+                        }
+                    },
+                    "Soldier": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "rank": "string",
+                            "militaryBranch": "string"
+                        }
+                    },
+                    "Editor": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "publications": "[string]"
+                        }
+                    },
+                    "Archaeologist": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "fieldOfStudy": "string",
+                            "discoveries": "[string]"
+                        }
+                    },
+                    "Librarian": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "library": "string",
+                            "specialCollections": "[string]"
+                        }
+                    },
+                    "ArmyOfficer": {
+                        "properties": {
+                            "name": "string",
+                            "birthDate": "date",
+                            "birthPlace": "string",
+                            "nationality": "string",
+                            "occupation": "string",
+                            "rank": "string",
+                            "militaryBranch": "string"
+                        }
+                    }
+                }
+            },
+            "Surname": {
+                "properties": {
+                    "name": "string",
+                    "birthDate": "date",
+                    "birthPlace": "string",
+                    "nationality": "string",
+                    "surname": "string"
+                }
+            },
+            "Nationality": {
+                "properties": {
+                    "name": "string",
+                    "birthDate": "date",
+                    "birthPlace": "string",
+                    "nationality": "string"
+                }
+            },
+            "Parent": {
+                "properties": {
+                    "name": "string",
+                    "birthDate": "date",
+                    "birthPlace": "string",
+                    "nationality": "string",
+                    "children": "[string]"
+                }
+            },
+            "Descent": {
+                "properties": {
+                    "name": "string",
+                    "birthDate": "date",
+                    "birthPlace": "string",
+                    "nationality": "string",
+                    "ancestry": "[string]"
+                }
+            },
+            "Queen": {
+                "properties": {
+                    "name": "string",
+                    "birthDate": "date",
+                    "birthPlace": "string",
+                    "nationality": "string",
+                    "reign": "string",
+                    "kingdom": "string"
+                }
+            },
+            "Count": {
+                "properties": {
+                    "name": "string",
+                    "birthDate": "date",
+                    "birthPlace": "string",
+                    "nationality": "string",
+                    "title": "string",
+                    "territory": "string"
+                }
+            }
+        }
+    },
+    "Location": {
+        "properties": {
+            "name": "string",
+            "coordinates": "string",
+            "country": "string"
+        },
+        "childrenEntities": {
+            "Cemetery": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "notableBurials": "[string]"
+                }
+            },
+            "Building": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "architect": "string",
+                    "yearBuilt": "date"
+                },
+                "childrenEntities": {
+                    "House": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "architect": "string",
+                            "yearBuilt": "date",
+                            "style": "string"
+                        }
+                    },
+                    "Bridge": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "architect": "string",
+                            "yearBuilt": "date",
+                            "length": "number"
+                        }
+                    },
+                    "Dam": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "architect": "string",
+                            "yearBuilt": "date",
+                            "capacity": "number"
+                        }
+                    },
+                    "Tunnel": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "architect": "string",
+                            "yearBuilt": "date",
+                            "length": "number"
+                        }
+                    },
+                    "Fort": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "architect": "string",
+                            "yearBuilt": "date",
+                            "historicalSignificance": "string"
+                        }
+                    }
+                }
+            },
+            "Region": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "population": "number",
+                    "area": "number"
+                },
+                "childrenEntities": {
+                    "Continent": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number",
+                            "countries": "[string]"
+                        }
+                    },
+                    "Country": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number",
+                            "capital": "string"
+                        }
+                    },
+                    "State": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number",
+                            "capital": "string"
+                        }
+                    },
+                    "City": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number",
+                            "mayor": "string"
+                        }
+                    },
+                    "District": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "Prefecture": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "Governorate": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "Village": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "Constituency": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "Settlement": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "Neighborhood": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "Townland": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "CivilParish": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "County": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "FederalConstituency": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    },
+                    "Town": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "population": "number",
+                            "area": "number"
+                        }
+                    }
+                }
+            },
+            "Park": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "area": "number",
+                    "established": "date"
+                }
+            },
+            "Station": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "lines": "[string]"
+                },
+                "childrenEntities": {
+                    "TrainStation": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "lines": "[string]",
+                            "platforms": "number"
+                        }
+                    },
+                    "RailwayStation": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "lines": "[string]",
+                            "platforms": "number"
+                        }
+                    }
+                }
+            },
+            "Church": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "denomination": "string",
+                    "yearBuilt": "date"
+                }
+            },
+            "HistoricPlace": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "historicalSignificance": "string"
+                }
+            },
+            "Mountain": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "elevation": "number"
+                }
+            },
+            "GeographicalFeature": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "type": "string"
+                }
+            },
+            "River": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "length": "number"
+                }
+            },
+            "Trail": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "length": "number"
+                }
+            },
+            "NaturePark": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "area": "number",
+                    "established": "date"
+                }
+            },
+            "Glacier": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "area": "number"
+                }
+            },
+            "Temple": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "religion": "string",
+                    "yearBuilt": "date"
+                }
+            },
+            "ArchaeologicalSite": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "historicalSignificance": "string"
+                }
+            },
+            "HeritageSite": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "historicalSignificance": "string"
+                }
+            },
+            "RecreationArea": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "area": "number"
+                }
+            },
+            "HistoricDistrict": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "historicalSignificance": "string"
+                }
+            },
+            "GeologicalSite": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "geologicalSignificance": "string"
+                }
+            },
+            "Island": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "area": "number"
+                }
+            },
+            "Zone": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "type": "string"
+                }
+            },
+            "BodyOfWater": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "type": "string"
+                },
+                "childrenEntities": {
+                    "Bay": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "type": "string",
+                            "area": "number"
+                        }
+                    },
+                    "Watercourse": {
+                        "properties": {
+                            "name": "string",
+                            "coordinates": "string",
+                            "country": "string",
+                            "type": "string",
+                            "length": "number"
+                        }
+                    }
+                }
+            },
+            "Summit": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "elevation": "number"
+                }
+            },
+            "Hill": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "elevation": "number"
+                }
+            },
+            "Locality": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "population": "number"
+                }
+            },
+            "Area": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "population": "number"
+                }
+            },
+            "TransportHub": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "lines": "[string]"
+                }
+            },
+            "Canton": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "population": "number",
+                    "area": "number"
+                }
+            },
+            "Department": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "population": "number",
+                    "area": "number"
+                }
+            },
+            "NatureReserve": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "area": "number",
+                    "established": "date"
+                }
+            },
+            "LocalGovernmentArea": {
+                "properties": {
+                    "name": "string",
+                    "coordinates": "string",
+                    "country": "string",
+                    "population": "number",
+                    "area": "number"
+                }
+            }
+        }
+    },
+    "Event": {
+        "properties": {
+            "name": "string",
+            "date": "date",
+            "location": "string"
+        },
+        "childrenEntities": {
+            "War": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "belligerents": "[string]",
+                    "outcome": "string"
+                }
+            },
+            "Ceremony": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "type": "string"
+                }
+            },
+            "MusicFestival": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "duration": "number",
+                    "genres": "[string]"
+                }
+            },
+            "Festival": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "duration": "number",
+                    "theme": "string"
+                }
+            },
+            "Election": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "candidates": "[string]",
+                    "result": "string"
+                }
+            },
+            "Conference": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "topics": "[string]"
+                }
+            },
+            "Competition": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "participants": "[string]",
+                    "winner": "string"
+                }
+            },
+            "Campaign": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "goal": "string"
+                }
+            },
+            "AwardNomination": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "nominees": "[string]",
+                    "category": "string"
+                }
+            },
+            "Controversy": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "issues": "[string]"
+                }
+            },
+            "Exhibition": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "theme": "string"
+                }
+            },
+            "TennisTournament": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "participants": "[string]",
+                    "winner": "string"
+                }
+            },
+            "BicycleRace": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "participants": "[string]",
+                    "winner": "string"
+                }
+            },
+            "Race": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "participants": "[string]",
+                    "winner": "string"
+                }
+            },
+            "Protest": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "cause": "string"
+                }
+            },
+            "PoliticalEvent": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "participants": "[string]"
+                }
+            },
+            "NaturalEvent": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "type": "string"
+                }
+            },
+            "Battle": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "belligerents": "[string]",
+                    "outcome": "string"
+                }
+            },
+            "Tournament": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "participants": "[string]",
+                    "winner": "string"
+                }
+            },
+            "Anniversary": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "years": "number"
+                }
+            },
+            "SportsCompetition": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "participants": "[string]",
+                    "winner": "string"
+                }
+            },
+            "SportEvent": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "participants": "[string]",
+                    "winner": "string"
+                }
+            },
+            "CulturalFestival": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "theme": "string"
+                }
+            },
+            "MusicAward": {
+                "properties": {
+                    "name": "string",
+                    "date": "date",
+                    "location": "string",
+                    "categories": "[string]",
+                    "winners": "[string]"
+                }
+            }
+        }
+    },
+    "Organization": {
+        "properties": {
+            "name": "string",
+            "establishedDate": "date",
+            "location": "string"
+        },
+        "childrenEntities": {
+            "Company": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "industry": "string",
+                    "revenue": "number"
+                },
+                "childrenEntities": {
+                    "EnergyCompany": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "industry": "string",
+                            "revenue": "number",
+                            "energyType": "string"
+                        }
+                    },
+                    "ITCompany": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "industry": "string",
+                            "revenue": "number",
+                            "technologyFocus": "string"
+                        }
+                    },
+                    "Label": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "industry": "string",
+                            "revenue": "number",
+                            "musicGenre": "string"
+                        }
+                    },
+                    "AdvisoryFirm": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "industry": "string",
+                            "revenue": "number",
+                            "expertiseArea": "string"
+                        }
+                    },
+                    "InvestmentBank": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "industry": "string",
+                            "revenue": "number",
+                            "services": "string"
+                        }
+                    },
+                    "Corporation": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "industry": "string",
+                            "revenue": "number",
+                            "subsidiaries": "[string]"
+                        }
+                    },
+                    "FinancialSponsor": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "industry": "string",
+                            "revenue": "number",
+                            "investmentFocus": "string"
+                        }
+                    },
+                    "Vendor": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "industry": "string",
+                            "revenue": "number",
+                            "products": "[string]"
+                        }
+                    }
+                }
+            },
+            "FootballClub": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "league": "string",
+                    "stadium": "string"
+                }
+            },
+            "TourOperator": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "tourTypes": "[string]",
+                    "destinations": "[string]"
+                }
+            },
+            "GovernmentAgency": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "jurisdiction": "string",
+                    "services": "[string]"
+                }
+            },
+            "Institution": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "type": "string"
+                },
+                "childrenEntities": {
+                    "College": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "degreePrograms": "[string]"
+                        }
+                    },
+                    "University": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "faculties": "[string]"
+                        }
+                    },
+                    "Library": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "collections": "[string]"
+                        }
+                    },
+                    "BusinessSchool": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "programs": "[string]"
+                        }
+                    },
+                    "HighSchool": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "curriculum": "[string]"
+                        }
+                    },
+                    "Hospital": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "departments": "[string]"
+                        }
+                    },
+                    "School": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "grades": "[string]"
+                        }
+                    },
+                    "ReligiousOrganization": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "denomination": "string"
+                        }
+                    },
+                    "Nunnery": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "order": "string"
+                        }
+                    },
+                    "Diocese": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "type": "string",
+                            "bishop": "string"
+                        }
+                    }
+                }
+            },
+            "MusicGroup": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "genre": "string",
+                    "members": "[string]"
+                },
+                "childrenEntities": {
+                    "Band": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "genre": "string",
+                            "members": "[string]",
+                            "albums": "[string]"
+                        },
+                        "childrenEntities": {
+                            "MusicBand": {
+                                "properties": {
+                                    "name": "string",
+                                    "establishedDate": "date",
+                                    "location": "string",
+                                    "genre": "string",
+                                    "members": "[string]",
+                                    "albums": "[string]",
+                                    "hitSingles": "[string]"
+                                }
+                            },
+                            "Supergroup": {
+                                "properties": {
+                                    "name": "string",
+                                    "establishedDate": "date",
+                                    "location": "string",
+                                    "genre": "string",
+                                    "members": "[string]",
+                                    "albums": "[string]",
+                                    "supergroupMembers": "[string]"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "RegulatoryBody": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "sector": "string",
+                    "regulations": "[string]"
+                }
+            },
+            "SportsTeam": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "sport": "string",
+                    "league": "string"
+                },
+                "childrenEntities": {
+                    "BasketballTeam": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "sport": "string",
+                            "league": "string",
+                            "championshipsWon": "number"
+                        }
+                    },
+                    "RugbyTeam": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "sport": "string",
+                            "league": "string",
+                            "trophies": "number"
+                        }
+                    },
+                    "CricketTeam": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "sport": "string",
+                            "league": "string",
+                            "matchesWon": "number"
+                        }
+                    },
+                    "FootballTeam": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "sport": "string",
+                            "league": "string",
+                            "titles": "number"
+                        }
+                    },
+                    "SportsLeague": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "sport": "string",
+                            "teams": "[string]"
+                        }
+                    },
+                    "Championship": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "sport": "string",
+                            "participants": "[string]"
+                        }
+                    },
+                    "NationalTeam": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "sport": "string",
+                            "achievements": "[string]"
+                        }
+                    },
+                    "FootballLeague": {
+                        "properties": {
+                            "name": "string",
+                            "establishedDate": "date",
+                            "location": "string",
+                            "sport": "string",
+                            "teams": "[string]"
+                        }
+                    }
+                }
+            },
+            "Business": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "industry": "string",
+                    "products": "[string]"
+                }
+            },
+            "PoliticalParty": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "ideology": "string",
+                    "leaders": "[string]"
+                }
+            },
+            "Union": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "sector": "string",
+                    "members": "number"
+                }
+            },
+            "Council": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "jurisdiction": "string",
+                    "members": "[string]"
+                }
+            },
+            "MilitaryOrganization": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "branch": "string",
+                    "missions": "[string]"
+                }
+            },
+            "Broadcaster": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "channels": "[string]",
+                    "programs": "[string]"
+                }
+            },
+            "Shipyard": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "products": "[string]",
+                    "capacity": "number"
+                }
+            },
+            "Fraternity": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "chapters": "[string]",
+                    "members": "number"
+                }
+            },
+            "StudentOrganization": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "activities": "[string]",
+                    "members": "number"
+                }
+            },
+            "InvestmentGroup": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "investmentFocus": "string",
+                    "portfolio": "[string]"
+                }
+            },
+            "NonProfitOrganization": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "mission": "string",
+                    "programs": "[string]"
+                }
+            },
+            "TradeUnion": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "sector": "string",
+                    "members": "number"
+                }
+            },
+            "Club": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "activities": "[string]",
+                    "members": "number"
+                }
+            },
+            "Committee": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "purpose": "string",
+                    "members": "[string]"
+                }
+            },
+            "LaborOrganization": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "sector": "string",
+                    "members": "number"
+                }
+            },
+            "Association": {
+                "properties": {
+                    "name": "string",
+                    "establishedDate": "date",
+                    "location": "string",
+                    "purpose": "string",
+                    "members": "[string]"
+                }
+            }
+        }
+    },
+    "Document": {
+        "properties": {
+            "title": "string",
+            "author": "string",
+            "publicationDate": "date",
+            "language": "string"
+        },
+        "childrenEntities": {
+            "LegalCase": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "court": "string",
+                    "verdict": "string"
+                }
+            },
+            "TelevisionEpisode": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "series": "string",
+                    "season": "number",
+                    "episodeNumber": "number"
+                }
+            },
+            "TelevisionSeries": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "seasons": "number",
+                    "episodes": "number"
+                }
+            },
+            "ComicSeries": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "issues": "number",
+                    "characters": "[string]"
+                }
+            },
+            "TVSeries": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "seasons": "number",
+                    "episodes": "number"
+                }
+            },
+            "Song": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "album": "string",
+                    "genre": "string"
+                }
+            },
+            "Film": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "director": "string",
+                    "genre": "string"
+                }
+            },
+            "Book": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "genre": "string"
+                },
+                "childrenEntities": {
+                    "BookSeries": {
+                        "properties": {
+                            "title": "string",
+                            "author": "string",
+                            "publicationDate": "date",
+                            "language": "string",
+                            "genre": "string",
+                            "books": "[string]"
+                        }
+                    },
+                    "Novel": {
+                        "properties": {
+                            "title": "string",
+                            "author": "string",
+                            "publicationDate": "date",
+                            "language": "string",
+                            "genre": "string",
+                            "subGenre": "string"
+                        }
+                    }
+                }
+            },
+            "Format": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "formatType": "string"
+                }
+            },
+            "MusicAlbum": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "genre": "string",
+                    "tracks": "[string]"
+                }
+            },
+            "Album": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "genre": "string",
+                    "tracks": "[string]"
+                }
+            },
+            "RadioShow": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "episodes": "number",
+                    "host": "string"
+                }
+            },
+            "Dictionary": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "entries": "number"
+                }
+            },
+            "Manuscript": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "pages": "number"
+                }
+            },
+            "Documentary": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "director": "string",
+                    "subject": "string"
+                }
+            },
+            "Policy": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "policyType": "string"
+                }
+            },
+            "Magazine": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "issues": "number",
+                    "topics": "[string]"
+                }
+            },
+            "GraphicNovel": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "genre": "string",
+                    "illustrator": "string"
+                }
+            },
+            "Publication": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "publisher": "string"
+                }
+            },
+            "Register": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "entries": "number"
+                }
+            },
+            "Constitution": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "country": "string"
+                }
+            },
+            "Licence": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "licenseType": "string"
+                }
+            },
+            "Journal": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "issues": "number",
+                    "topics": "[string]"
+                }
+            },
+            "Newspaper": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "issues": "number",
+                    "sections": "[string]"
+                }
+            },
+            "Chronicle": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "events": "[string]"
+                }
+            },
+            "Treaty": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "parties": "[string]"
+                }
+            },
+            "Contract": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "parties": "[string]"
+                }
+            },
+            "Edition": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "editionNumber": "number"
+                }
+            },
+            "Text": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "content": "string"
+                }
+            },
+            "Poem": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "style": "string"
+                }
+            },
+            "Timeline": {
+                "properties": {
+                    "title": "string",
+                    "author": "string",
+                    "publicationDate": "date",
+                    "language": "string",
+                    "events": "[string]"
+                }
+            }
+        }
+    },
+    "Art": {
+        "properties": {
+            "title": "string",
+            "creator": "string",
+            "creationDate": "date",
+            "medium": "string"
+        },
+        "childrenEntities": {
+            "FilmGenre": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "genre": "string"
+                }
+            },
+            "MusicGenre": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "genre": "string"
+                }
+            },
+            "ArchitectureStyle": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "style": "string"
+                }
+            },
+            "Architecture": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "style": "string"
+                }
+            },
+            "Artist": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "artworks": "[string]"
+                }
+            },
+            "CulturalWork": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "culture": "string"
+                }
+            },
+            "Literature": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "genre": "string"
+                }
+            },
+            "Culture": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "traditions": "[string]"
+                }
+            },
+            "Play": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "genre": "string"
+                }
+            },
+            "HistoricalStructure": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "period": "string"
+                }
+            },
+            "Instrument": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "type": "string"
+                }
+            },
+            "Anime": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "genre": "string"
+                }
+            },
+            "AnimeDirector": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "works": "[string]"
+                }
+            },
+            "Chart": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "data": "[string]"
+                }
+            },
+            "Role": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "character": "string"
+                }
+            },
+            "Mission": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "objective": "string"
+                }
+            },
+            "Movement": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "philosophy": "string"
+                }
+            },
+            "MythologicalCharacter": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "myth": "string"
+                }
+            },
+            "Honor": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "award": "string"
+                }
+            },
+            "Painting": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "style": "string"
+                }
+            },
+            "ArtisticWork": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "genre": "string"
+                }
+            },
+            "Composition": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "style": "string"
+                }
+            },
+            "Story": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "genre": "string"
+                }
+            },
+            "ArtForm": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "style": "string"
+                }
+            },
+            "ArtMovement": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "philosophy": "string"
+                }
+            },
+            "Artwork": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "style": "string"
+                }
+            },
+            "Medium": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "type": "string"
+                }
+            },
+            "Style": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "style": "string"
+                }
+            },
+            "ArtStyle": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "style": "string"
+                }
+            },
+            "Sculpture": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "material": "string"
+                }
+            },
+            "Statue": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "material": "string"
+                }
+            },
+            "Monument": {
+                "properties": {
+                    "title": "string",
+                    "creator": "string",
+                    "creationDate": "date",
+                    "medium": "string",
+                    "location": "string"
+                }
+            }
+        }
+    },
+    "Material": {
+        "properties": {
+            "name": "string",
+            "composition": "string",
+            "density": "number"
+        },
+        "childrenEntities": {
+            "ChemicalCompound": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "molecularWeight": "number",
+                    "chemicalFormula": "string"
+                }
+            },
+            "Gas": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "state": "string",
+                    "boilingPoint": "number"
+                }
+            },
+            "Rock": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "hardness": "number",
+                    "formationProcess": "string"
+                }
+            },
+            "Enzyme": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "catalyticActivity": "string",
+                    "optimalPH": "number"
+                }
+            },
+            "Color": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "hexCode": "string",
+                    "wavelength": "number"
+                }
+            },
+            "Mineral": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "crystalSystem": "string",
+                    "hardness": "number"
+                }
+            },
+            "Protein": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "aminoAcidSequence": "string",
+                    "function": "string"
+                }
+            },
+            "IonChannel": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "ionType": "string",
+                    "conductance": "number"
+                }
+            },
+            "ProteinFamily": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "commonFunction": "string",
+                    "memberProteins": "[string]"
+                }
+            },
+            "Chemical": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "chemicalFormula": "string",
+                    "hazardClass": "string"
+                }
+            },
+            "ChemicalFormula": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "formula": "string",
+                    "molarMass": "number"
+                }
+            },
+            "Adhesive": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "adhesionStrength": "number",
+                    "application": "string"
+                }
+            },
+            "ToxicAgent": {
+                "properties": {
+                    "name": "string",
+                    "composition": "string",
+                    "density": "number",
+                    "toxicityLevel": "string",
+                    "exposureRoutes": "[string]"
+                }
+            }
+        }
+    },
+    "Process": {
+        "properties": {
+            "name": "string",
+            "description": "string",
+            "duration": "number"
+        },
+        "childrenEntities": {
+            "FracturingTechnique": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "fractureType": "string",
+                    "equipmentUsed": "[string]"
+                }
+            },
+            "MicroscopyTechnique": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "resolution": "number",
+                    "magnification": "number"
+                }
+            },
+            "Examination": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "examType": "string",
+                    "toolsUsed": "[string]"
+                }
+            },
+            "Trial": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "trialType": "string",
+                    "outcome": "string"
+                }
+            },
+            "Audition": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "role": "string",
+                    "participants": "[string]"
+                }
+            },
+            "Method": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "steps": "[string]",
+                    "applications": "[string]"
+                }
+            },
+            "EducationalMethod": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "learningObjectives": "[string]",
+                    "targetAudience": "[string]"
+                }
+            },
+            "Technique": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "techniqueType": "string",
+                    "toolsRequired": "[string]"
+                }
+            },
+            "Automation": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "automationLevel": "string",
+                    "technologiesUsed": "[string]"
+                }
+            },
+            "Navigation": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "navigationType": "string",
+                    "toolsUsed": "[string]"
+                }
+            },
+            "SynthesisMethod": {
+                "properties": {
+                    "name": "string",
+                    "description": "string",
+                    "duration": "number",
+                    "synthesisType": "string",
+                    "materialsRequired": "[string]"
+                }
+            }
+        }
+    },
+    "Music": {
+        "properties": {
+            "name": "string",
+            "genre": "string",
+            "duration": "number"
+        },
+        "childrenEntities": {
+            "MusicGenre": {
+                "properties": {
+                    "name": "string",
+                    "genre": "string",
+                    "duration": "number",
+                    "origin": "string",
+                    "popularity": "number"
+                }
+            },
+            "Song": {
+                "properties": {
+                    "name": "string",
+                    "genre": "string",
+                    "duration": "number",
+                    "artist": "string",
+                    "album": "string"
+                }
+            },
+            "Band": {
+                "properties": {
+                    "name": "string",
+                    "genre": "string",
+                    "duration": "number",
+                    "members": "[string]",
+                    "formationYear": "number"
+                }
+            },
+            "Orchestra": {
+                "properties": {
+                    "name": "string",
+                    "genre": "string",
+                    "duration": "number",
+                    "conductor": "string",
+                    "members": "[string]"
+                }
+            },
+            "MusicLabel": {
+                "properties": {
+                    "name": "string",
+                    "genre": "string",
+                    "duration": "number",
+                    "foundedYear": "number",
+                    "artists": "[string]"
+                }
+            },
+            "MusicVenue": {
+                "properties": {
+                    "name": "string",
+                    "genre": "string",
+                    "duration": "number",
+                    "location": "string",
+                    "capacity": "number"
+                }
+            },
+            "MusicVideo": {
+                "properties": {
+                    "name": "string",
+                    "genre": "string",
+                    "duration": "number",
+                    "director": "string",
+                    "releaseDate": "date"
+                }
+            },
+            "MusicPublishingGroup": {
+                "properties": {
+                    "name": "string",
+                    "genre": "string",
+                    "duration": "number",
+                    "foundedYear": "number",
+                    "publishedWorks": "[string]"
+                }
+            }
+        }
+    },
+    "Structure": {
+        "properties": {
+            "name": "string",
+            "location": "string",
+            "yearBuilt": "date"
+        },
+        "childrenEntities": {
+            "Building": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "architect": "string",
+                    "material": "string"
+                },
+                "childrenEntities": {
+                    "House": {
+                        "properties": {
+                            "name": "string",
+                            "location": "string",
+                            "yearBuilt": "date",
+                            "architect": "string",
+                            "material": "string",
+                            "numberOfRooms": "number",
+                            "hasGarage": "boolean"
+                        }
+                    },
+                    "Bridge": {
+                        "properties": {
+                            "name": "string",
+                            "location": "string",
+                            "yearBuilt": "date",
+                            "architect": "string",
+                            "material": "string",
+                            "length": "number",
+                            "type": "string"
+                        }
+                    },
+                    "Dam": {
+                        "properties": {
+                            "name": "string",
+                            "location": "string",
+                            "yearBuilt": "date",
+                            "architect": "string",
+                            "material": "string",
+                            "capacity": "number",
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "Memorial": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "dedicatedTo": "string"
+                }
+            },
+            "Prison": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "capacity": "number",
+                    "securityLevel": "string"
+                }
+            },
+            "Railway": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "length": "number",
+                    "type": "string"
+                }
+            },
+            "Highway": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "length": "number",
+                    "lanes": "number"
+                }
+            },
+            "Stadium": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "capacity": "number",
+                    "type": "string"
+                }
+            },
+            "HistoricalStructure": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "historicalSignificance": "string"
+                }
+            },
+            "Monastery": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "religiousOrder": "string"
+                }
+            },
+            "Museum": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "collectionSize": "number",
+                    "type": "string"
+                }
+            },
+            "Facility": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "purpose": "string"
+                }
+            },
+            "PowerStation": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "capacity": "number",
+                    "type": "string"
+                }
+            },
+            "Pipeline": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "length": "number",
+                    "material": "string"
+                }
+            },
+            "Infrastructure": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "type": "string"
+                }
+            },
+            "Airport": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "capacity": "number",
+                    "runways": "number"
+                }
+            },
+            "MilitaryInstallation": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "capacity": "number",
+                    "type": "string"
+                }
+            },
+            "Arena": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "capacity": "number",
+                    "type": "string"
+                }
+            },
+            "Block": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "numberOfUnits": "number"
+                }
+            },
+            "RailwayLine": {
+                "properties": {
+                    "name": "string",
+                    "location": "string",
+                    "yearBuilt": "date",
+                    "length": "number",
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "Animal": {
+        "properties": {
+            "scientificName": "string",
+            "habitat": "string",
+            "diet": "string"
+        },
+        "childrenEntities": {
+            "Species": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "conservationStatus": "string"
+                }
+            },
+            "Organism": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "lifeSpan": "number"
+                }
+            },
+            "AnimalBreed": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "breedCharacteristics": "string"
+                }
+            },
+            "Moth": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "wingSpan": "number"
+                }
+            },
+            "Beetle": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "wingSpan": "number"
+                }
+            },
+            "Insect": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "wingSpan": "number"
+                }
+            },
+            "Racehorse": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "speed": "number",
+                    "raceWins": "number"
+                }
+            },
+            "Mammal": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "gestationPeriod": "number"
+                }
+            },
+            "Human": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "language": "string",
+                    "culture": "string"
+                }
+            },
+            "Bacteria": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "diet": "string",
+                    "reproductionRate": "number"
+                }
+            }
+        }
+    },
+    "Plant": {
+        "properties": {
+            "scientificName": "string",
+            "habitat": "string",
+            "growthRate": "number"
+        },
+        "childrenEntities": {
+            "Species": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "growthRate": "number",
+                    "conservationStatus": "string"
+                }
+            },
+            "Organism": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "growthRate": "number",
+                    "lifeSpan": "number"
+                }
+            },
+            "Tree": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "growthRate": "number",
+                    "height": "number",
+                    "age": "number"
+                }
+            },
+            "Subgenus": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "growthRate": "number",
+                    "characteristics": "string"
+                }
+            },
+            "Alga": {
+                "properties": {
+                    "scientificName": "string",
+                    "habitat": "string",
+                    "growthRate": "number",
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "Other": {
+        "Date": {
+            "properties": {
+                "year": "integer",
+                "month": "integer",
+                "day": "integer"
+            }
+        },
+        "Award": {
+            "properties": {
+                "name": "string",
+                "category": "string",
+                "year": "integer"
+            }
+        },
+        "Market": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "type": "string"
+            }
+        },
+        "StockExchange": {
+            "properties": {
+                "name": "string",
+                "country": "string",
+                "index": "string"
+            }
+        },
+        "Product": {
+            "properties": {
+                "name": "string",
+                "category": "string",
+                "price": "number"
+            }
+        },
+        "TimePeriod": {
+            "properties": {
+                "startYear": "integer",
+                "endYear": "integer",
+                "description": "string"
+            }
+        },
+        "MemoryType": {
+            "properties": {
+                "name": "string",
+                "capacity": "string",
+                "type": "string"
+            }
+        },
+        "Pressure": {
+            "properties": {
+                "value": "number",
+                "unit": "string",
+                "context": "string"
+            }
+        },
+        "HeritageRegister": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "yearListed": "integer"
+            }
+        },
+        "Military": {
+            "properties": {
+                "branch": "string",
+                "country": "string",
+                "size": "integer"
+            }
+        },
+        "PhylogeneticTree": {
+            "properties": {
+                "species": "string",
+                "branchLength": "number",
+                "root": "string"
+            }
+        },
+        "Publisher": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "foundedYear": "integer"
+            }
+        },
+        "Court": {
+            "properties": {
+                "name": "string",
+                "jurisdiction": "string",
+                "location": "string"
+            }
+        },
+        "Position": {
+            "properties": {
+                "title": "string",
+                "department": "string",
+                "level": "string"
+            }
+        },
+        "Dynasty": {
+            "properties": {
+                "name": "string",
+                "country": "string",
+                "period": "string"
+            }
+        },
+        "Artifact": {
+            "properties": {
+                "name": "string",
+                "origin": "string",
+                "age": "integer"
+            }
+        },
+        "Character": {
+            "properties": {
+                "name": "string",
+                "role": "string",
+                "story": "string"
+            }
+        },
+        "RadioStation": {
+            "properties": {
+                "name": "string",
+                "frequency": "string",
+                "location": "string"
+            }
+        },
+        "Service": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "provider": "string"
+            }
+        },
+        "Profession": {
+            "properties": {
+                "name": "string",
+                "industry": "string",
+                "averageSalary": "number"
+            }
+        },
+        "Platform": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "userBase": "integer"
+            }
+        },
+        "Purpose": {
+            "properties": {
+                "description": "string",
+                "goal": "string",
+                "targetAudience": "string"
+            }
+        },
+        "Fungus": {
+            "properties": {
+                "species": "string",
+                "habitat": "string",
+                "edibility": "string"
+            }
+        },
+        "Genus": {
+            "properties": {
+                "name": "string",
+                "family": "string",
+                "speciesCount": "integer"
+            }
+        },
+        "Family": {
+            "properties": {
+                "name": "string",
+                "order": "string",
+                "genusCount": "integer"
+            }
+        },
+        "Software": {
+            "properties": {
+                "name": "string",
+                "version": "string",
+                "developer": "string"
+            }
+        },
+        "Community": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "population": "integer"
+            }
+        },
+        "Frequency": {
+            "properties": {
+                "value": "number",
+                "unit": "string",
+                "application": "string"
+            }
+        },
+        "Stream": {
+            "properties": {
+                "name": "string",
+                "source": "string",
+                "length": "number"
+            }
+        },
+        "Aircraft": {
+            "properties": {
+                "model": "string",
+                "manufacturer": "string",
+                "capacity": "integer"
+            }
+        },
+        "Component": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "function": "string"
+            }
+        },
+        "Townland": {
+            "properties": {
+                "name": "string",
+                "county": "string",
+                "area": "number"
+            }
+        },
+        "MedicalField": {
+            "properties": {
+                "name": "string",
+                "specialization": "string",
+                "practitioners": "integer"
+            }
+        },
+        "PoliticalRole": {
+            "properties": {
+                "title": "string",
+                "responsibilities": "string",
+                "termLength": "integer"
+            }
+        },
+        "SkiArea": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "trailCount": "integer"
+            }
+        },
+        "Submarine": {
+            "properties": {
+                "name": "string",
+                "class": "string",
+                "country": "string"
+            }
+        },
+        "Collection": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "itemCount": "integer"
+            }
+        },
+        "Spirit": {
+            "properties": {
+                "name": "string",
+                "origin": "string",
+                "alcoholContent": "number"
+            }
+        },
+        "Folklore": {
+            "properties": {
+                "name": "string",
+                "origin": "string",
+                "story": "string"
+            }
+        },
+        "Philosophy": {
+            "properties": {
+                "name": "string",
+                "origin": "string",
+                "keyConcepts": "string"
+            }
+        },
+        "AcademicField": {
+            "properties": {
+                "name": "string",
+                "disciplines": "string",
+                "institutions": "integer"
+            }
+        },
+        "Industry": {
+            "properties": {
+                "name": "string",
+                "sector": "string",
+                "marketSize": "number"
+            }
+        },
+        "Tool": {
+            "properties": {
+                "name": "string",
+                "function": "string",
+                "material": "string"
+            }
+        },
+        "Project": {
+            "properties": {
+                "name": "string",
+                "objective": "string",
+                "duration": "integer"
+            }
+        },
+        "Locomotive": {
+            "properties": {
+                "model": "string",
+                "manufacturer": "string",
+                "powerType": "string"
+            }
+        },
+        "Crime": {
+            "properties": {
+                "type": "string",
+                "location": "string",
+                "date": "date"
+            }
+        },
+        "Law": {
+            "properties": {
+                "name": "string",
+                "jurisdiction": "string",
+                "enactmentDate": "date"
+            }
+        },
+        "Research": {
+            "properties": {
+                "topic": "string",
+                "methodology": "string",
+                "findings": "string"
+            }
+        },
+        "SportsVenue": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "capacity": "integer"
+            }
+        },
+        "RecordLabel": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "artists": "integer"
+            }
+        },
+        "Religion": {
+            "properties": {
+                "name": "string",
+                "origin": "string",
+                "followers": "integer"
+            }
+        },
+        "Deity": {
+            "properties": {
+                "name": "string",
+                "mythology": "string",
+                "attributes": "string"
+            }
+        },
+        "CulturalProperty": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "significance": "string"
+            }
+        },
+        "League": {
+            "properties": {
+                "name": "string",
+                "sport": "string",
+                "teams": "integer"
+            }
+        },
+        "Transportation": {
+            "properties": {
+                "type": "string",
+                "capacity": "integer",
+                "routes": "string"
+            }
+        },
+        "EducationalApproach": {
+            "properties": {
+                "name": "string",
+                "philosophy": "string",
+                "methods": "string"
+            }
+        },
+        "Season": {
+            "properties": {
+                "name": "string",
+                "startMonth": "string",
+                "endMonth": "string"
+            }
+        },
+        "Ownership": {
+            "properties": {
+                "owner": "string",
+                "property": "string",
+                "duration": "integer"
+            }
+        },
+        "Attack": {
+            "properties": {
+                "type": "string",
+                "location": "string",
+                "date": "date"
+            }
+        },
+        "MilitantGroup": {
+            "properties": {
+                "name": "string",
+                "ideology": "string",
+                "region": "string"
+            }
+        },
+        "Government": {
+            "properties": {
+                "type": "string",
+                "country": "string",
+                "leaders": "integer"
+            }
+        },
+        "Voter": {
+            "properties": {
+                "name": "string",
+                "age": "integer",
+                "constituency": "string"
+            }
+        },
+        "Army": {
+            "properties": {
+                "name": "string",
+                "country": "string",
+                "size": "integer"
+            }
+        },
+        "Draft": {
+            "properties": {
+                "year": "integer",
+                "participants": "integer",
+                "outcome": "string"
+            }
+        },
+        "OilField": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "reserves": "number"
+            }
+        },
+        "Race": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "distance": "number"
+            }
+        },
+        "RailwayStation": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "lines": "integer"
+            }
+        },
+        "TelevisionShow": {
+            "properties": {
+                "name": "string",
+                "genre": "string",
+                "seasons": "integer"
+            }
+        },
+        "Province": {
+            "properties": {
+                "name": "string",
+                "country": "string",
+                "population": "integer"
+            }
+        },
+        "CivicBody": {
+            "properties": {
+                "name": "string",
+                "jurisdiction": "string",
+                "members": "integer"
+            }
+        },
+        "Mayor": {
+            "properties": {
+                "name": "string",
+                "city": "string",
+                "term": "integer"
+            }
+        },
+        "Commissioner": {
+            "properties": {
+                "name": "string",
+                "department": "string",
+                "term": "integer"
+            }
+        },
+        "Commune": {
+            "properties": {
+                "name": "string",
+                "region": "string",
+                "population": "integer"
+            }
+        },
+        "Population": {
+            "properties": {
+                "count": "integer",
+                "region": "string",
+                "year": "integer"
+            }
+        },
+        "FormalScientist": {
+            "properties": {
+                "name": "string",
+                "field": "string",
+                "contributions": "string"
+            }
+        },
+        "FormalLogic": {
+            "properties": {
+                "name": "string",
+                "principles": "string",
+                "applications": "string"
+            }
+        },
+        "Dialectic": {
+            "properties": {
+                "name": "string",
+                "method": "string",
+                "applications": "string"
+            }
+        },
+        "Accident": {
+            "properties": {
+                "type": "string",
+                "location": "string",
+                "date": "date"
+            }
+        },
+        "ResearchCentre": {
+            "properties": {
+                "name": "string",
+                "field": "string",
+                "location": "string"
+            }
+        },
+        "Road": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "length": "number"
+            }
+        },
+        "PoliticalBody": {
+            "properties": {
+                "name": "string",
+                "jurisdiction": "string",
+                "members": "integer"
+            }
+        },
+        "Attraction": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "type": "string"
+            }
+        },
+        "Media": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "audience": "integer"
+            }
+        },
+        "LawEnforcement": {
+            "properties": {
+                "agency": "string",
+                "jurisdiction": "string",
+                "officers": "integer"
+            }
+        },
+        "EstablishmentYear": {
+            "properties": {
+                "year": "integer",
+                "entity": "string",
+                "location": "string"
+            }
+        },
+        "Period": {
+            "properties": {
+                "name": "string",
+                "startYear": "integer",
+                "endYear": "integer"
+            }
+        },
+        "Virtue": {
+            "properties": {
+                "name": "string",
+                "definition": "string",
+                "examples": "string"
+            }
+        },
+        "Betrayal": {
+            "properties": {
+                "type": "string",
+                "context": "string",
+                "consequences": "string"
+            }
+        },
+        "UnitOfMeasurement": {
+            "properties": {
+                "name": "string",
+                "symbol": "string",
+                "quantity": "string"
+            }
+        },
+        "Restaurant": {
+            "properties": {
+                "name": "string",
+                "cuisine": "string",
+                "location": "string"
+            }
+        },
+        "FoodDeliverySystem": {
+            "properties": {
+                "name": "string",
+                "serviceArea": "string",
+                "partners": "integer"
+            }
+        },
+        "Marriage": {
+            "properties": {
+                "partners": "string",
+                "date": "date",
+                "location": "string"
+            }
+        },
+        "Technology": {
+            "properties": {
+                "name": "string",
+                "field": "string",
+                "applications": "string"
+            }
+        },
+        "Program": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "duration": "integer"
+            }
+        },
+        "Budget": {
+            "properties": {
+                "amount": "number",
+                "currency": "string",
+                "purpose": "string"
+            }
+        },
+        "Episode": {
+            "properties": {
+                "name": "string",
+                "series": "string",
+                "duration": "integer"
+            }
+        },
+        "Climate": {
+            "properties": {
+                "type": "string",
+                "region": "string",
+                "averageTemperature": "number"
+            }
+        },
+        "GeologicalFeature": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "type": "string"
+            }
+        },
+        "Space": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "location": "string"
+            }
+        },
+        "License": {
+            "properties": {
+                "type": "string",
+                "holder": "string",
+                "expiryDate": "date"
+            }
+        },
+        "Ship": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "country": "string"
+            }
+        },
+        "GivenName": {
+            "properties": {
+                "name": "string",
+                "origin": "string",
+                "meaning": "string"
+            }
+        },
+        "Epic": {
+            "properties": {
+                "name": "string",
+                "origin": "string",
+                "story": "string"
+            }
+        },
+        "SurnameMeaning": {
+            "properties": {
+                "surname": "string",
+                "origin": "string",
+                "meaning": "string"
+            }
+        },
+        "CulturalEntity": {
+            "properties": {
+                "name": "string",
+                "origin": "string",
+                "significance": "string"
+            }
+        },
+        "CulturalInstitute": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "type": "string"
+            }
+        },
+        "Synagogue": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "capacity": "integer"
+            }
+        },
+        "ArtGallery": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "artworks": "integer"
+            }
+        },
+        "Zoo": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "speciesCount": "integer"
+            }
+        },
+        "Education": {
+            "properties": {
+                "name": "string",
+                "level": "string",
+                "institutions": "integer"
+            }
+        },
+        "ReleaseDate": {
+            "properties": {
+                "date": "date",
+                "product": "string",
+                "region": "string"
+            }
+        },
+        "Match": {
+            "properties": {
+                "teams": "string",
+                "date": "date",
+                "location": "string"
+            }
+        },
+        "Place": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "type": "string"
+            }
+        },
+        "Gender": {
+            "properties": {
+                "type": "string",
+                "characteristics": "string",
+                "roles": "string"
+            }
+        },
+        "Year": {
+            "properties": {
+                "year": "integer",
+                "events": "string",
+                "significance": "string"
+            }
+        },
+        "Computer": {
+            "properties": {
+                "model": "string",
+                "manufacturer": "string",
+                "specifications": "string"
+            }
+        },
+        "Inhibitor": {
+            "properties": {
+                "name": "string",
+                "target": "string",
+                "effect": "string"
+            }
+        },
+        "Disease": {
+            "properties": {
+                "name": "string",
+                "symptoms": "string",
+                "treatment": "string"
+            }
+        },
+        "Philanthropy": {
+            "properties": {
+                "name": "string",
+                "cause": "string",
+                "impact": "string"
+            }
+        },
+        "History": {
+            "properties": {
+                "period": "string",
+                "events": "string",
+                "significance": "string"
+            }
+        },
+        "Archaeology": {
+            "properties": {
+                "site": "string",
+                "artifacts": "string",
+                "period": "string"
+            }
+        },
+        "Kingdom": {
+            "properties": {
+                "name": "string",
+                "region": "string",
+                "rulers": "string"
+            }
+        },
+        "God": {
+            "properties": {
+                "name": "string",
+                "mythology": "string",
+                "attributes": "string"
+            }
+        },
+        "Fraud": {
+            "properties": {
+                "type": "string",
+                "method": "string",
+                "impact": "string"
+            }
+        },
+        "Scheme": {
+            "properties": {
+                "name": "string",
+                "purpose": "string",
+                "participants": "integer"
+            }
+        },
+        "Victim": {
+            "properties": {
+                "name": "string",
+                "incident": "string",
+                "impact": "string"
+            }
+        },
+        "Income": {
+            "properties": {
+                "amount": "number",
+                "source": "string",
+                "frequency": "string"
+            }
+        },
+        "LandUse": {
+            "properties": {
+                "type": "string",
+                "area": "number",
+                "region": "string"
+            }
+        },
+        "Division": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "region": "string"
+            }
+        },
+        "Ecosystem": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "species": "string"
+            }
+        },
+        "Network": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "nodes": "integer"
+            }
+        },
+        "Game": {
+            "properties": {
+                "name": "string",
+                "genre": "string",
+                "platform": "string"
+            }
+        },
+        "Plate": {
+            "properties": {
+                "name": "string",
+                "material": "string",
+                "use": "string"
+            }
+        },
+        "Nerve": {
+            "properties": {
+                "name": "string",
+                "function": "string",
+                "location": "string"
+            }
+        },
+        "MedicalCondition": {
+            "properties": {
+                "name": "string",
+                "symptoms": "string",
+                "treatment": "string"
+            }
+        },
+        "ConcentrationCamp": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "period": "string"
+            }
+        },
+        "TranscriptionFactor": {
+            "properties": {
+                "name": "string",
+                "geneTarget": "string",
+                "function": "string"
+            }
+        },
+        "Resource": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "availability": "string"
+            }
+        },
+        "Hazard": {
+            "properties": {
+                "type": "string",
+                "location": "string",
+                "impact": "string"
+            }
+        },
+        "SuicideBombing": {
+            "properties": {
+                "location": "string",
+                "date": "date",
+                "casualties": "integer"
+            }
+        },
+        "Family(Biology)": {
+            "properties": {
+                "name": "string",
+                "order": "string",
+                "genusCount": "integer"
+            }
+        },
+        "VideoGame": {
+            "properties": {
+                "name": "string",
+                "genre": "string",
+                "platform": "string"
+            }
+        },
+        "NetWorth": {
+            "properties": {
+                "amount": "number",
+                "currency": "string",
+                "entity": "string"
+            }
+        },
+        "Wingspan": {
+            "properties": {
+                "length": "number",
+                "species": "string",
+                "unit": "string"
+            }
+        },
+        "Trait": {
+            "properties": {
+                "name": "string",
+                "species": "string",
+                "inheritance": "string"
+            }
+        },
+        "BiologicalActivity": {
+            "properties": {
+                "name": "string",
+                "organism": "string",
+                "effect": "string"
+            }
+        },
+        "Gene": {
+            "properties": {
+                "name": "string",
+                "location": "string",
+                "function": "string"
+            }
+        },
+        "Feature": {
+            "properties": {
+                "name": "string",
+                "type": "string",
+                "location": "string"
+            }
+        },
+        "MythologicalFigure": {
+            "properties": {
+                "name": "string",
+                "mythology": "string",
+                "role": "string"
+            }
+        }
+    }
+}

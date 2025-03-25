@@ -1,0 +1,81 @@
+[
+  {
+    "d": {
+      "identity": 5,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "author": "the philologist",
+        "language": "Dutch",
+        "id": "7",
+        "title": "The Yser Testament",
+        "publicationDate": "11.7.1917"
+      },
+      "elementId": "4:4b6351da-cc90-4cdd-8a33-dfb7da2f9a9d:5"
+    },
+    "relationship": "ADDRESSED_TO",
+    "objectLabels": [
+      "Person"
+    ],
+    "objectProperties": {
+      "id": "8",
+      "nationality": "Belgian",
+      "name": "Albert I",
+      "birthDate": "",
+      "birthPlace": ""
+    }
+  },
+  {
+    "d": {
+      "identity": 5,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "author": "the philologist",
+        "language": "Dutch",
+        "id": "7",
+        "title": "The Yser Testament",
+        "publicationDate": "11.7.1917"
+      },
+      "elementId": "4:4b6351da-cc90-4cdd-8a33-dfb7da2f9a9d:5"
+    },
+    "relationship": "DENOUNCES",
+    "objectLabels": [
+      "Organization"
+    ],
+    "objectProperties": {
+      "id": "11",
+      "establishedDate": "",
+      "location": "Belgium",
+      "name": "Frontbeweging"
+    }
+  },
+  {
+    "d": {
+      "identity": 5,
+      "labels": [
+        "Document"
+      ],
+      "properties": {
+        "author": "the philologist",
+        "language": "Dutch",
+        "id": "7",
+        "title": "The Yser Testament",
+        "publicationDate": "11.7.1917"
+      },
+      "elementId": "4:4b6351da-cc90-4cdd-8a33-dfb7da2f9a9d:5"
+    },
+    "relationship": "OCCURS_ON",
+    "objectLabels": [
+      "Date"
+    ],
+    "objectProperties": {
+      "id": "13",
+      "month": 7,
+      "year": 1917,
+      "day": 11
+    }
+  }
+]
